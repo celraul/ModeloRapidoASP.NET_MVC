@@ -10,5 +10,7 @@ namespace Cel.Modelo.Dominio.Interfaces.Repository
     public interface IusuarioRepository :IRepositoryBase<Usuario>
     {
         List<Usuario> BuscarPorNome(string nome);
+
+        void SalvaUsuario(Usuario usuario);
     }
 }

@@ -11,17 +11,16 @@ namespace Cel.Modelo.Persistencia.EF.Repository
 {
     public class RepositoryBase<TEntity> : IDisposable, IRepositoryBase<TEntity> where TEntity : class
     {
-        protected ModeloDbContext _modeloDbContext = new ModeloDbContext();
+        protected DbContext _modeloDbContext;
 
         public RepositoryBase()
         {
-
         }
 
         public void Add(TEntity obj)
         {
             _modeloDbContext.Set<TEntity>().Add(obj);
-            _modeloDbContext.SaveChanges();
+          //  _modeloDbContext.SaveChanges();
         }
 
         public TEntity AddAsyncWithReturn(TEntity obj)
@@ -63,16 +62,17 @@ namespace Cel.Modelo.Persistencia.EF.Repository
 
         public void Update(TEntity obj)
         {
-           // _modeloDbContext.Set<TEntity>().Attach(obj);
-            _modeloDbContext.Entry(obj).State = EntityState.Modified;
-            _modeloDbContext.SaveChanges();
+            //  _modeloDbContext.Entry(obj).State = EntityState.Modified;
+            // _modeloDbContext.Set<TEntity>().Attach(obj);
+          //  _modeloDbContext.SaveChanges();
+
         }
 
         public void Remove(TEntity obj)
         {
             _modeloDbContext.Set<TEntity>().Attach(obj);
             _modeloDbContext.Entry(obj).State = EntityState.Deleted;
-            _modeloDbContext.SaveChanges();
+         //   _modeloDbContext.SaveChanges();
             // ModeloDbContext.Set<TEntity>().Remove(obj);
         }
 
@@ -81,6 +81,9 @@ namespace Cel.Modelo.Persistencia.EF.Repository
             _modeloDbContext.Dispose();
         }
 
-
+        public void SaveChanges()
+        {
+            _modeloDbContext.SaveChanges();
+        }
     }
 }

@@ -25,7 +25,7 @@ namespace Cel.Modelo.web.webControllers
         // GET: CadastroUsuario
         public ActionResult ListaUsuarios()
         {
-            var usuarios = Mapper.Map<IEnumerable<Usuario>, IEnumerable<UsuarioViewModel>>(_usuarioRepository.GetALL());
+            var usuarios = Mapper.Map<IEnumerable<Usuario>, IEnumerable<UsuarioViewModel>>(_usuarioRepository.GetALL()).ToList();
 
             return View(usuarios);
         }
@@ -73,24 +73,20 @@ namespace Cel.Modelo.web.webControllers
             {
                 if (ModelState.IsValid)
                 {
-                    var user = Mapper.Map<Usuario>(userViewModel);  //this is wrong
                     var usuario = Mapper.Map<UsuarioViewModel, Usuario>(userViewModel);
-
-                    if (userViewModel.IdUsuario != default(int))
-                        _usuarioRepository.Update(usuario);
-                    else
-                        _usuarioRepository.Add(usuario);
+                    _usuarioRepository.SalvaUsuario(usuario);
 
                     return RedirectToAction("ListaUsuarios");
                 }
                 else
                 {
                     ModelState.AddModelError(string.Empty, "Erro ao salvar Usuario.");
+
                     return View(userViewModel);
                 }
 
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 throw new Exception("erro ", ex.InnerException);
                 //return View(userViewModel);

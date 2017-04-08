@@ -60,3 +60,6 @@ R:\Desenvolvedor\projetos\ModeloRapidoASP.NET_MVC\CrossCuttingSimpleInjetiction\
 R:\Desenvolvedor\projetos\ModeloRapidoASP.NET_MVC\CrossCuttingSimpleInjetiction\bin\Debug\Cel.Modelo.Repositorio.pdb
 R:\Desenvolvedor\projetos\ModeloRapidoASP.NET_MVC\CrossCuttingSimpleInjetiction\bin\Debug\SimpleInjector.xml
 R:\Desenvolvedor\projetos\ModeloRapidoASP.NET_MVC\CrossCuttingSimpleInjetiction\bin\Debug\EntityFramework.xml
+R:\Desenvolvedor\projetos\ModeloRapidoASP.NET_MVC\CrossCuttingSimpleInjetiction\bin\Debug\CrossCuttingSimpleInjetiction.dll.config
+R:\Desenvolvedor\projetos\ModeloRapidoASP.NET_MVC\CrossCuttingSimpleInjetiction\bin\Debug\EntityFramework.SqlServer.dll
+R:\Desenvolvedor\projetos\ModeloRapidoASP.NET_MVC\CrossCuttingSimpleInjetiction\bin\Debug\EntityFramework.SqlServer.xml

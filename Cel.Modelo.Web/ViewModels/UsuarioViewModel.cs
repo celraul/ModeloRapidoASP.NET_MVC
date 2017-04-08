@@ -3,14 +3,15 @@ using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Web;
+
 
 namespace Cel.Modelo.web.ViewModels
 {
     public class UsuarioViewModel
     {
-       // [Key]
         public int IdUsuario { get; set; }
 
         [Required(ErrorMessage = "Preencha o campo Nome")]
@@ -35,6 +36,7 @@ namespace Cel.Modelo.web.ViewModels
         [DataType(DataType.Password)]
         [Display(Name = "Confirmar a senha")]
         [Compare("Password", ErrorMessage = "A senhe e a confirmação da senha são diferentes")]
+        [NotMapped]
         public string ConfirmaPassword { get; set; }
 
         [Required(ErrorMessage = "Preencha o campo E-mail ")]
@@ -51,8 +53,8 @@ namespace Cel.Modelo.web.ViewModels
 
         [Required(ErrorMessage = "Preencha o campo empresa")]
         public int IdEmpresa { get; set; }
-        
-      //  public virtual EmpresaViewModel Empresa { get; set; }
+
+        //  public virtual EmpresaViewModel Empresa { get; set; }
         //public virtual Empresa empresa { get; set; }
     }
 }
