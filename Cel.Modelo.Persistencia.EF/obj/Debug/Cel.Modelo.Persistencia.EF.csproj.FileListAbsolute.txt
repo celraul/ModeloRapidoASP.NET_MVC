@@ -1,0 +1,60 @@
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo\Cel.Modelo.Persistencia.EF\obj\Debug\Cel.Modelo.Persistencia.EF.csprojResolveAssemblyReference.cache
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo\Cel.Modelo.Persistencia.EF\bin\Debug\Cel.Modelo.Persistencia.EF.dll.config
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo\Cel.Modelo.Persistencia.EF\bin\Debug\Cel.Modelo.Persistencia.EF.dll
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo\Cel.Modelo.Persistencia.EF\bin\Debug\Cel.Modelo.Persistencia.EF.pdb
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo\Cel.Modelo.Persistencia.EF\bin\Debug\Cel.Modelo.Comun.EF.dll
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo\Cel.Modelo.Persistencia.EF\bin\Debug\Cel.Modelo.Dominio.dll
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo\Cel.Modelo.Persistencia.EF\bin\Debug\EntityFramework.dll
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo\Cel.Modelo.Persistencia.EF\bin\Debug\EntityFramework.SqlServer.dll
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo\Cel.Modelo.Persistencia.EF\bin\Debug\Cel.Modelo.Comun.EF.pdb
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo\Cel.Modelo.Persistencia.EF\bin\Debug\Cel.Modelo.Dominio.pdb
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo\Cel.Modelo.Persistencia.EF\bin\Debug\EntityFramework.xml
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo\Cel.Modelo.Persistencia.EF\bin\Debug\EntityFramework.SqlServer.xml
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo\Cel.Modelo.Persistencia.EF\obj\Debug\Cel.Modelo.Persistencia.EF.dll
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo\Cel.Modelo.Persistencia.EF\obj\Debug\Cel.Modelo.Persistencia.EF.pdb
+C:\Users\raul.silva\Desktop\projeto mother fucker\Modelo_rapido\Cel.Modelo\Cel.Modelo.Persistencia.EF\obj\Debug\Cel.Modelo.Persistencia.EF.csprojResolveAssemblyReference.cache
+C:\Users\raul.silva\Desktop\projeto mother fucker\Modelo_rapido\Cel.Modelo\Cel.Modelo.Persistencia.EF\obj\Debug\Cel.Modelo.Persistencia.EF.dll
+C:\Users\raul.silva\Desktop\projeto mother fucker\Modelo_rapido\Cel.Modelo\Cel.Modelo.Persistencia.EF\bin\Debug\Cel.Modelo.Persistencia.EF.dll.config
+C:\Users\raul.silva\Desktop\projeto mother fucker\Modelo_rapido\Cel.Modelo\Cel.Modelo.Persistencia.EF\bin\Debug\Cel.Modelo.Persistencia.EF.dll
+C:\Users\raul.silva\Desktop\projeto mother fucker\Modelo_rapido\Cel.Modelo\Cel.Modelo.Persistencia.EF\bin\Debug\Cel.Modelo.Persistencia.EF.pdb
+C:\Users\raul.silva\Desktop\projeto mother fucker\Modelo_rapido\Cel.Modelo\Cel.Modelo.Persistencia.EF\bin\Debug\Cel.Modelo.Comun.EF.dll
+C:\Users\raul.silva\Desktop\projeto mother fucker\Modelo_rapido\Cel.Modelo\Cel.Modelo.Persistencia.EF\bin\Debug\Cel.Modelo.Dominio.dll
+C:\Users\raul.silva\Desktop\projeto mother fucker\Modelo_rapido\Cel.Modelo\Cel.Modelo.Persistencia.EF\bin\Debug\EntityFramework.dll
+C:\Users\raul.silva\Desktop\projeto mother fucker\Modelo_rapido\Cel.Modelo\Cel.Modelo.Persistencia.EF\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\raul.silva\Desktop\projeto mother fucker\Modelo_rapido\Cel.Modelo\Cel.Modelo.Persistencia.EF\bin\Debug\Cel.Modelo.Comun.EF.pdb
+C:\Users\raul.silva\Desktop\projeto mother fucker\Modelo_rapido\Cel.Modelo\Cel.Modelo.Persistencia.EF\bin\Debug\Cel.Modelo.Dominio.pdb
+C:\Users\raul.silva\Desktop\projeto mother fucker\Modelo_rapido\Cel.Modelo\Cel.Modelo.Persistencia.EF\bin\Debug\EntityFramework.xml
+C:\Users\raul.silva\Desktop\projeto mother fucker\Modelo_rapido\Cel.Modelo\Cel.Modelo.Persistencia.EF\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\raul.silva\Desktop\projeto mother fucker\Modelo_rapido\Cel.Modelo\Cel.Modelo.Persistencia.EF\obj\Debug\Cel.Modelo.Persistencia.EF.pdb
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_01\Cel.Modelo.Persistencia.EF\bin\Debug\Cel.Modelo.Persistencia.EF.dll.config
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_01\Cel.Modelo.Persistencia.EF\bin\Debug\Cel.Modelo.Persistencia.EF.dll
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_01\Cel.Modelo.Persistencia.EF\bin\Debug\Cel.Modelo.Persistencia.EF.pdb
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_01\Cel.Modelo.Persistencia.EF\bin\Debug\Cel.Modelo.Comun.EF.dll
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_01\Cel.Modelo.Persistencia.EF\bin\Debug\Cel.Modelo.Dominio.dll
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_01\Cel.Modelo.Persistencia.EF\bin\Debug\EntityFramework.dll
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_01\Cel.Modelo.Persistencia.EF\bin\Debug\EntityFramework.SqlServer.dll
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_01\Cel.Modelo.Persistencia.EF\bin\Debug\Cel.Modelo.Comun.EF.pdb
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_01\Cel.Modelo.Persistencia.EF\bin\Debug\Cel.Modelo.Dominio.pdb
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_01\Cel.Modelo.Persistencia.EF\bin\Debug\EntityFramework.xml
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_01\Cel.Modelo.Persistencia.EF\bin\Debug\EntityFramework.SqlServer.xml
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_01\Cel.Modelo.Persistencia.EF\obj\Debug\Cel.Modelo.Persistencia.EF.csprojResolveAssemblyReference.cache
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_01\Cel.Modelo.Persistencia.EF\obj\Debug\Cel.Modelo.Persistencia.EF.Migrations.usuarioMG.resources
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_01\Cel.Modelo.Persistencia.EF\obj\Debug\Cel.Modelo.Persistencia.EF.csproj.GenerateResource.Cache
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_01\Cel.Modelo.Persistencia.EF\obj\Debug\Cel.Modelo.Persistencia.EF.dll
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_01\Cel.Modelo.Persistencia.EF\obj\Debug\Cel.Modelo.Persistencia.EF.pdb
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_02\Cel.Modelo.Persistencia.EF\bin\Debug\Cel.Modelo.Persistencia.EF.dll.config
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_02\Cel.Modelo.Persistencia.EF\bin\Debug\Cel.Modelo.Persistencia.EF.dll
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_02\Cel.Modelo.Persistencia.EF\bin\Debug\Cel.Modelo.Persistencia.EF.pdb
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_02\Cel.Modelo.Persistencia.EF\bin\Debug\Cel.Modelo.Comun.EF.dll
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_02\Cel.Modelo.Persistencia.EF\bin\Debug\Cel.Modelo.Dominio.dll
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_02\Cel.Modelo.Persistencia.EF\bin\Debug\EntityFramework.dll
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_02\Cel.Modelo.Persistencia.EF\bin\Debug\EntityFramework.SqlServer.dll
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_02\Cel.Modelo.Persistencia.EF\bin\Debug\Cel.Modelo.Comun.EF.pdb
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_02\Cel.Modelo.Persistencia.EF\bin\Debug\Cel.Modelo.Dominio.pdb
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_02\Cel.Modelo.Persistencia.EF\bin\Debug\EntityFramework.xml
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_02\Cel.Modelo.Persistencia.EF\bin\Debug\EntityFramework.SqlServer.xml
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_02\Cel.Modelo.Persistencia.EF\obj\Debug\Cel.Modelo.Persistencia.EF.csprojResolveAssemblyReference.cache
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_02\Cel.Modelo.Persistencia.EF\obj\Debug\Cel.Modelo.Persistencia.EF.Migrations.empresa.resources
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_02\Cel.Modelo.Persistencia.EF\obj\Debug\Cel.Modelo.Persistencia.EF.csproj.GenerateResource.Cache
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_02\Cel.Modelo.Persistencia.EF\obj\Debug\Cel.Modelo.Persistencia.EF.dll
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_02\Cel.Modelo.Persistencia.EF\obj\Debug\Cel.Modelo.Persistencia.EF.pdb

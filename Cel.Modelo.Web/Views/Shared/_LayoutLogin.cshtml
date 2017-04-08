@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sistema desenvolvido para estudo" />
+    <meta name="keywords" content="manager,login" />
+    <meta name="author" content="celraul company" />
+    <title>@ViewBag.Title</title>
+    
+    @Styles.Render("~/Content/css")
+  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:400,100,300,500">
+
+<script type="text/javascript">
+    window.appInsights={queue:[],applicationInsightsId:null,accountId:null,appUserId:null,configUrl:null,start:function(n){function u(n,t){n[t]=function(){var i=arguments;n.queue.push(function(){n[t].apply(n,i)})}}function f(n){var t=document.createElement("script");return t.type="text/javascript",t.src=n,t.async=!0,t}function r(){i.appendChild(f("//az416426.vo.msecnd.net/scripts/ai.0.js"))}var i,t;this.applicationInsightsId=n;u(this,"logEvent");u(this,"logPageView");i=document.getElementsByTagName("script")[0].parentNode;this.configUrl===null?r():(t=f(this.configUrl),t.onload=r,t.onerror=r,i.appendChild(t));this.start=function(){}}};
+    appInsights.configUrl="/ApplicationInsights.axd";
+    appInsights.start();
+    appInsights.logPageView();
+</script>
+</head>
+<body>
+
+	
+	@RenderBody()
+		
+    <footer>
+	    <p>&copy; @DateTime.Now.Year - Raul R. Silva Celraul Company</p>
+    </footer>
+		
+	
+
+</body>
+</html>
+
+@Scripts.Render("~/bundles/jqueryBootstrap")
+@Scripts.Render("~/bundles/jqueryval")
+@RenderSection("scripts", required: false)

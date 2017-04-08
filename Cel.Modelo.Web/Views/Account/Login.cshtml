@@ -1,0 +1,73 @@
+﻿@model   Cel.Modelo.web.Models.LoginViewModel
+
+@{
+    ViewBag.Title = "Login";
+    Layout = "~/Views/Shared/_LayoutLogin.cshtml";
+}
+ <!-- Top content -->
+<div class="top-content">
+    <div class="inner-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-8 col-sm-offset-2 text">
+                    <h1><strong>Manager</strong> @ViewBag.Title.</h1>
+                    <p> This system is used to manage many things</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6 col-sm-offset-3 form-box">
+                    <div class="form-top">
+                        <div class="form-top-left">
+                            <h3>Login</h3>
+                            <p>Enter your username and password to log on:</p>
+                        </div>
+                        <div class="form-top-right">
+                            <i class="fa fa-lock"></i>
+                        </div>
+                    </div>
+                    <div class="form-bottom"> @*   Request.QueryString["ReturnUrl"]  *@   
+                        @using (Html.BeginForm("Login", "Account", new { ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post, new { @class = "form-horizontal login-form validate", role = "form" }))
+                        {
+                            @Html.AntiForgeryToken()
+                            @Html.ValidationSummary(true)
+                            <div class="form-group">
+                                @Html.LabelFor(m => m.UserName, new { @class = "col-md-2 control-label sr-only" })
+                                    <div class="col-md-12">
+                                        @Html.TextBoxFor(m => m.UserName, new { @class = "form-username form-control", @Id = "form-username", @placeholder = "Username...", @name = "form-username" })
+                                        @Html.ValidationMessageFor(m => m.UserName)
+                                    </div>
+                                </div>
+                            <div class="form-group">
+                                @Html.LabelFor(m => m.Password, new { @class = "col-md-2 control-label sr-only" })
+                                <div class="col-md-12">
+                                    @Html.PasswordFor(m => m.Password, new { @class = "form-username form-control", @Id = "form-password", @placeholder = "Password...", @name = "form-password" })
+                                    @Html.ValidationMessageFor(m => m.Password)
+                                </div>
+                            </div>
+                            <button type="submit" class="btn">Sign in!</button>
+                        }
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6 col-sm-offset-3 social-login">
+                    <h3> Contact me:</h3>
+                    <div class="social-login-buttons">
+                        <a class="btn btn-link-2" target="_blank" href="https://www.linkedin.com/in/celraul/">
+                            <i class="fa fa-linkedin"> </i> Linkedin 
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/Scripts/placeholder")
+    @Styles.Render("~/Content/Login.css")
+    @Scripts.Render("~/Scripts/ScriptsLogin.js")
+    @Scripts.Render("~/bundles/ScriptLibs")
+
+}

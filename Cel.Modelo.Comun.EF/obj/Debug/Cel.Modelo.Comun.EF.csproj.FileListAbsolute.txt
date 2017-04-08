@@ -1,0 +1,10 @@
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo\Cel.Modelo.Comun.EF\bin\Debug\Cel.Modelo.Comun.EF.dll.config
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo\Cel.Modelo.Comun.EF\bin\Debug\Cel.Modelo.Comun.EF.dll
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo\Cel.Modelo.Comun.EF\bin\Debug\Cel.Modelo.Comun.EF.pdb
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo\Cel.Modelo.Comun.EF\bin\Debug\EntityFramework.dll
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo\Cel.Modelo.Comun.EF\bin\Debug\EntityFramework.SqlServer.dll
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo\Cel.Modelo.Comun.EF\bin\Debug\EntityFramework.xml
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo\Cel.Modelo.Comun.EF\bin\Debug\EntityFramework.SqlServer.xml
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo\Cel.Modelo.Comun.EF\obj\Debug\Cel.Modelo.Comun.EF.csprojResolveAssemblyReference.cache
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo\Cel.Modelo.Comun.EF\obj\Debug\Cel.Modelo.Comun.EF.dll
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo\Cel.Modelo.Comun.EF\obj\Debug\Cel.Modelo.Comun.EF.pdb

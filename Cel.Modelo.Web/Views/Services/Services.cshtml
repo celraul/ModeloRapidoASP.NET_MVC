@@ -1,0 +1,157 @@
+﻿@model IEnumerable<Manager.web.Customer>
+
+@{
+    ViewBag.Title = "Services";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+  //  Manager.web.Models.ServicesViewModels costumer = Model;
+}
+
+<h2>Services</h2>
+
+@*<p>
+    @Html.ActionLink("Create New", "Create")
+</p>*@
+
+@using (Html.BeginForm("Pesquisar", "Services/Services", new { ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+ {
+    <div class="row">
+        <div class="col-md-3">
+            @Html.Label("Name");
+            @Html.TextBox("filter.Name", "", new { @class = "form-control" })
+        </div>
+        <div class="col-md-3">
+            @Html.Label("Gender");
+            <select name="filter.Gender" id="gender" class="form-control">
+                <option value=""></option>
+                @foreach (var item in @ViewBag.Gender)
+                {
+                    <option value="@item.Id">@item.Name </option>
+                }
+            </select>
+
+        </div>
+        <div class="col-md-3">
+            @Html.Label("City");
+            <select name="filter.City" id="city" class="form-control">
+                <option value=""></option>
+                @foreach (var item in @ViewBag.City)
+                {
+                    <option value="@item.Id">@item.Name </option>
+                }
+            </select>
+        </div>
+        <div class="col-md-3">
+            @Html.Label("Region");
+            <select name="filter.Region" id="region" class="form-control">
+                <option value=""></option>
+                @foreach (var item in @ViewBag.Region)
+                {
+                    <option value="@item.Id">@item.Name </option>
+                }
+            </select>
+        </div>
+
+    </div>
+    <div class="row">
+        <div class="col-md-3">
+            @Html.Label("Last Purchase");
+            @Html.TextBox("lastPurchase", "", new { @class = "form-control" })
+
+        </div>
+        <div class="col-md-3">
+            @Html.Label("Until");
+            @Html.TextBox("Until", "", new { @class = "form-control" })
+        </div>
+        <div class="col-md-3 ">
+            @Html.Label("Classification");
+            <select name="filter.Classification" id="classification" class="form-control ">
+                <option value=""></option>
+                @foreach (var item in @ViewBag.Classification)
+                {
+                    <option value="@item.Id">@item.Name </option>
+                }
+            </select>
+        </div>
+        <div class="col-md-3 ">
+            @Html.Label("Seller");
+            @Html.TextBox("filter.Seller", "", new { @class = "form-control" })
+        </div>
+    </div>
+    
+    <br />
+    <div class="row">
+        <div class="form-group">
+            <div class="col-md-12 text-center">
+                <input type="submit" value="Search" class="btn btn-primary" />
+            </div>
+        </div>
+    </div>
+
+    <br />
+    <br />
+    <br />
+    <br />
+    
+ }
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Phone)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.GenderId)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CityId)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.RegionId)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.LastPurchase)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ClassificationId)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.UserId)
+        </th>
+        <th></th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Phone)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.GenderId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CityId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.RegionId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LastPurchase)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ClassificationId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.UserId)
+            </td>
+
+        </tr>
+    }
+
+
+</table>

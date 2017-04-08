@@ -1,0 +1,296 @@
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo\Cel.Modelo.Web\obj\Debug\Cel.Modelo.Web.csprojResolveAssemblyReference.cache
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo\Cel.Modelo.Web\bin\Cel.Modelo.web.dll.config
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo\Cel.Modelo.Web\bin\Cel.Modelo.web.dll
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo\Cel.Modelo.Web\bin\Cel.Modelo.web.pdb
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo\Cel.Modelo.Web\bin\Antlr3.Runtime.dll
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo\Cel.Modelo.Web\bin\AutoMapper.dll
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo\Cel.Modelo.Web\bin\EntityFramework.dll
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo\Cel.Modelo.Web\bin\EntityFramework.SqlServer.dll
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo\Cel.Modelo.Web\bin\Microsoft.ApplicationInsights.Telemetry.Services.dll
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo\Cel.Modelo.Web\bin\Microsoft.ApplicationInsights.Telemetry.Web.dll
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo\Cel.Modelo.Web\bin\Microsoft.AspNet.Identity.Core.dll
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo\Cel.Modelo.Web\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo\Cel.Modelo.Web\bin\Microsoft.AspNet.Identity.Owin.dll
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo\Cel.Modelo.Web\bin\Microsoft.Owin.dll
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo\Cel.Modelo.Web\bin\Microsoft.Owin.Host.SystemWeb.dll
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo\Cel.Modelo.Web\bin\Microsoft.Owin.Security.Cookies.dll
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo\Cel.Modelo.Web\bin\Microsoft.Owin.Security.dll
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo\Cel.Modelo.Web\bin\Microsoft.Owin.Security.Facebook.dll
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo\Cel.Modelo.Web\bin\Microsoft.Owin.Security.Google.dll
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo\Cel.Modelo.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo\Cel.Modelo.Web\bin\Microsoft.Owin.Security.OAuth.dll
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo\Cel.Modelo.Web\bin\Microsoft.Owin.Security.Twitter.dll
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo\Cel.Modelo.Web\bin\Microsoft.Web.Infrastructure.dll
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo\Cel.Modelo.Web\bin\Newtonsoft.Json.dll
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo\Cel.Modelo.Web\bin\Owin.dll
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo\Cel.Modelo.Web\bin\SimpleInjector.dll
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo\Cel.Modelo.Web\bin\SimpleInjector.Integration.Web.dll
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo\Cel.Modelo.Web\bin\SimpleInjector.Integration.Web.Mvc.dll
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo\Cel.Modelo.Web\bin\System.Web.Helpers.dll
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo\Cel.Modelo.Web\bin\System.Web.Mvc.dll
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo\Cel.Modelo.Web\bin\System.Web.Optimization.dll
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo\Cel.Modelo.Web\bin\System.Web.Razor.dll
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo\Cel.Modelo.Web\bin\System.Web.WebPages.Deployment.dll
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo\Cel.Modelo.Web\bin\System.Web.WebPages.dll
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo\Cel.Modelo.Web\bin\System.Web.WebPages.Razor.dll
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo\Cel.Modelo.Web\bin\WebActivator.dll
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo\Cel.Modelo.Web\bin\WebGrease.dll
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo\Cel.Modelo.Web\bin\AutoMapper.xml
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo\Cel.Modelo.Web\bin\EntityFramework.xml
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo\Cel.Modelo.Web\bin\EntityFramework.SqlServer.xml
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo\Cel.Modelo.Web\bin\Microsoft.ApplicationInsights.Telemetry.Services.xml
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo\Cel.Modelo.Web\bin\Microsoft.ApplicationInsights.Telemetry.Web.xml
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo\Cel.Modelo.Web\bin\SimpleInjector.xml
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo\Cel.Modelo.Web\bin\SimpleInjector.Integration.Web.xml
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo\Cel.Modelo.Web\bin\SimpleInjector.Integration.Web.Mvc.xml
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo\Cel.Modelo.Web\bin\System.Web.Helpers.xml
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo\Cel.Modelo.Web\bin\System.Web.Mvc.xml
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo\Cel.Modelo.Web\bin\System.Web.Optimization.xml
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo\Cel.Modelo.Web\bin\System.Web.Razor.xml
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo\Cel.Modelo.Web\bin\System.Web.WebPages.xml
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo\Cel.Modelo.Web\bin\System.Web.WebPages.Deployment.xml
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo\Cel.Modelo.Web\bin\System.Web.WebPages.Razor.xml
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo\Cel.Modelo.Web\bin\Newtonsoft.Json.xml
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo\Cel.Modelo.Web\bin\Antlr3.Runtime.pdb
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo\Cel.Modelo.Web\bin\Microsoft.AspNet.Identity.Core.xml
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo\Cel.Modelo.Web\bin\Microsoft.AspNet.Identity.Owin.xml
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo\Cel.Modelo.Web\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo\Cel.Modelo.Web\bin\Microsoft.Owin.xml
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo\Cel.Modelo.Web\bin\Microsoft.Owin.Host.SystemWeb.xml
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo\Cel.Modelo.Web\bin\Microsoft.Owin.Security.xml
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo\Cel.Modelo.Web\bin\Microsoft.Owin.Security.Facebook.xml
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo\Cel.Modelo.Web\bin\Microsoft.Owin.Security.Cookies.xml
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo\Cel.Modelo.Web\bin\Microsoft.Owin.Security.OAuth.xml
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo\Cel.Modelo.Web\bin\Microsoft.Owin.Security.Google.xml
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo\Cel.Modelo.Web\bin\Microsoft.Owin.Security.Twitter.xml
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo\Cel.Modelo.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo\Cel.Modelo.Web\obj\Debug\Cel.Modelo.web.dll
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo\Cel.Modelo.Web\obj\Debug\Cel.Modelo.web.pdb
+C:\Users\raul.silva\Desktop\projeto mother fucker\Modelo_rapido\Cel.Modelo\Cel.Modelo.Web\bin\Cel.Modelo.web.dll.config
+C:\Users\raul.silva\Desktop\projeto mother fucker\Modelo_rapido\Cel.Modelo\Cel.Modelo.Web\bin\Cel.Modelo.web.dll
+C:\Users\raul.silva\Desktop\projeto mother fucker\Modelo_rapido\Cel.Modelo\Cel.Modelo.Web\bin\Cel.Modelo.web.pdb
+C:\Users\raul.silva\Desktop\projeto mother fucker\Modelo_rapido\Cel.Modelo\Cel.Modelo.Web\bin\Antlr3.Runtime.dll
+C:\Users\raul.silva\Desktop\projeto mother fucker\Modelo_rapido\Cel.Modelo\Cel.Modelo.Web\bin\AutoMapper.dll
+C:\Users\raul.silva\Desktop\projeto mother fucker\Modelo_rapido\Cel.Modelo\Cel.Modelo.Web\bin\EntityFramework.dll
+C:\Users\raul.silva\Desktop\projeto mother fucker\Modelo_rapido\Cel.Modelo\Cel.Modelo.Web\bin\EntityFramework.SqlServer.dll
+C:\Users\raul.silva\Desktop\projeto mother fucker\Modelo_rapido\Cel.Modelo\Cel.Modelo.Web\bin\Microsoft.ApplicationInsights.Telemetry.Services.dll
+C:\Users\raul.silva\Desktop\projeto mother fucker\Modelo_rapido\Cel.Modelo\Cel.Modelo.Web\bin\Microsoft.ApplicationInsights.Telemetry.Web.dll
+C:\Users\raul.silva\Desktop\projeto mother fucker\Modelo_rapido\Cel.Modelo\Cel.Modelo.Web\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\raul.silva\Desktop\projeto mother fucker\Modelo_rapido\Cel.Modelo\Cel.Modelo.Web\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\raul.silva\Desktop\projeto mother fucker\Modelo_rapido\Cel.Modelo\Cel.Modelo.Web\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\raul.silva\Desktop\projeto mother fucker\Modelo_rapido\Cel.Modelo\Cel.Modelo.Web\bin\Microsoft.Owin.dll
+C:\Users\raul.silva\Desktop\projeto mother fucker\Modelo_rapido\Cel.Modelo\Cel.Modelo.Web\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\raul.silva\Desktop\projeto mother fucker\Modelo_rapido\Cel.Modelo\Cel.Modelo.Web\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\raul.silva\Desktop\projeto mother fucker\Modelo_rapido\Cel.Modelo\Cel.Modelo.Web\bin\Microsoft.Owin.Security.dll
+C:\Users\raul.silva\Desktop\projeto mother fucker\Modelo_rapido\Cel.Modelo\Cel.Modelo.Web\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\raul.silva\Desktop\projeto mother fucker\Modelo_rapido\Cel.Modelo\Cel.Modelo.Web\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\raul.silva\Desktop\projeto mother fucker\Modelo_rapido\Cel.Modelo\Cel.Modelo.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\raul.silva\Desktop\projeto mother fucker\Modelo_rapido\Cel.Modelo\Cel.Modelo.Web\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\raul.silva\Desktop\projeto mother fucker\Modelo_rapido\Cel.Modelo\Cel.Modelo.Web\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\raul.silva\Desktop\projeto mother fucker\Modelo_rapido\Cel.Modelo\Cel.Modelo.Web\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\raul.silva\Desktop\projeto mother fucker\Modelo_rapido\Cel.Modelo\Cel.Modelo.Web\bin\Newtonsoft.Json.dll
+C:\Users\raul.silva\Desktop\projeto mother fucker\Modelo_rapido\Cel.Modelo\Cel.Modelo.Web\bin\Owin.dll
+C:\Users\raul.silva\Desktop\projeto mother fucker\Modelo_rapido\Cel.Modelo\Cel.Modelo.Web\bin\SimpleInjector.dll
+C:\Users\raul.silva\Desktop\projeto mother fucker\Modelo_rapido\Cel.Modelo\Cel.Modelo.Web\bin\SimpleInjector.Integration.Web.dll
+C:\Users\raul.silva\Desktop\projeto mother fucker\Modelo_rapido\Cel.Modelo\Cel.Modelo.Web\bin\SimpleInjector.Integration.Web.Mvc.dll
+C:\Users\raul.silva\Desktop\projeto mother fucker\Modelo_rapido\Cel.Modelo\Cel.Modelo.Web\bin\System.Web.Helpers.dll
+C:\Users\raul.silva\Desktop\projeto mother fucker\Modelo_rapido\Cel.Modelo\Cel.Modelo.Web\bin\System.Web.Mvc.dll
+C:\Users\raul.silva\Desktop\projeto mother fucker\Modelo_rapido\Cel.Modelo\Cel.Modelo.Web\bin\System.Web.Optimization.dll
+C:\Users\raul.silva\Desktop\projeto mother fucker\Modelo_rapido\Cel.Modelo\Cel.Modelo.Web\bin\System.Web.Razor.dll
+C:\Users\raul.silva\Desktop\projeto mother fucker\Modelo_rapido\Cel.Modelo\Cel.Modelo.Web\bin\System.Web.WebPages.Deployment.dll
+C:\Users\raul.silva\Desktop\projeto mother fucker\Modelo_rapido\Cel.Modelo\Cel.Modelo.Web\bin\System.Web.WebPages.dll
+C:\Users\raul.silva\Desktop\projeto mother fucker\Modelo_rapido\Cel.Modelo\Cel.Modelo.Web\bin\System.Web.WebPages.Razor.dll
+C:\Users\raul.silva\Desktop\projeto mother fucker\Modelo_rapido\Cel.Modelo\Cel.Modelo.Web\bin\WebActivator.dll
+C:\Users\raul.silva\Desktop\projeto mother fucker\Modelo_rapido\Cel.Modelo\Cel.Modelo.Web\bin\WebGrease.dll
+C:\Users\raul.silva\Desktop\projeto mother fucker\Modelo_rapido\Cel.Modelo\Cel.Modelo.Web\bin\AutoMapper.xml
+C:\Users\raul.silva\Desktop\projeto mother fucker\Modelo_rapido\Cel.Modelo\Cel.Modelo.Web\bin\EntityFramework.xml
+C:\Users\raul.silva\Desktop\projeto mother fucker\Modelo_rapido\Cel.Modelo\Cel.Modelo.Web\bin\EntityFramework.SqlServer.xml
+C:\Users\raul.silva\Desktop\projeto mother fucker\Modelo_rapido\Cel.Modelo\Cel.Modelo.Web\bin\Microsoft.ApplicationInsights.Telemetry.Services.xml
+C:\Users\raul.silva\Desktop\projeto mother fucker\Modelo_rapido\Cel.Modelo\Cel.Modelo.Web\bin\Microsoft.ApplicationInsights.Telemetry.Web.xml
+C:\Users\raul.silva\Desktop\projeto mother fucker\Modelo_rapido\Cel.Modelo\Cel.Modelo.Web\bin\SimpleInjector.xml
+C:\Users\raul.silva\Desktop\projeto mother fucker\Modelo_rapido\Cel.Modelo\Cel.Modelo.Web\bin\SimpleInjector.Integration.Web.xml
+C:\Users\raul.silva\Desktop\projeto mother fucker\Modelo_rapido\Cel.Modelo\Cel.Modelo.Web\bin\SimpleInjector.Integration.Web.Mvc.xml
+C:\Users\raul.silva\Desktop\projeto mother fucker\Modelo_rapido\Cel.Modelo\Cel.Modelo.Web\bin\System.Web.Helpers.xml
+C:\Users\raul.silva\Desktop\projeto mother fucker\Modelo_rapido\Cel.Modelo\Cel.Modelo.Web\bin\System.Web.Mvc.xml
+C:\Users\raul.silva\Desktop\projeto mother fucker\Modelo_rapido\Cel.Modelo\Cel.Modelo.Web\bin\System.Web.Optimization.xml
+C:\Users\raul.silva\Desktop\projeto mother fucker\Modelo_rapido\Cel.Modelo\Cel.Modelo.Web\bin\System.Web.Razor.xml
+C:\Users\raul.silva\Desktop\projeto mother fucker\Modelo_rapido\Cel.Modelo\Cel.Modelo.Web\bin\System.Web.WebPages.xml
+C:\Users\raul.silva\Desktop\projeto mother fucker\Modelo_rapido\Cel.Modelo\Cel.Modelo.Web\bin\System.Web.WebPages.Deployment.xml
+C:\Users\raul.silva\Desktop\projeto mother fucker\Modelo_rapido\Cel.Modelo\Cel.Modelo.Web\bin\System.Web.WebPages.Razor.xml
+C:\Users\raul.silva\Desktop\projeto mother fucker\Modelo_rapido\Cel.Modelo\Cel.Modelo.Web\bin\Newtonsoft.Json.xml
+C:\Users\raul.silva\Desktop\projeto mother fucker\Modelo_rapido\Cel.Modelo\Cel.Modelo.Web\bin\Antlr3.Runtime.pdb
+C:\Users\raul.silva\Desktop\projeto mother fucker\Modelo_rapido\Cel.Modelo\Cel.Modelo.Web\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\raul.silva\Desktop\projeto mother fucker\Modelo_rapido\Cel.Modelo\Cel.Modelo.Web\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\raul.silva\Desktop\projeto mother fucker\Modelo_rapido\Cel.Modelo\Cel.Modelo.Web\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\raul.silva\Desktop\projeto mother fucker\Modelo_rapido\Cel.Modelo\Cel.Modelo.Web\bin\Microsoft.Owin.xml
+C:\Users\raul.silva\Desktop\projeto mother fucker\Modelo_rapido\Cel.Modelo\Cel.Modelo.Web\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\raul.silva\Desktop\projeto mother fucker\Modelo_rapido\Cel.Modelo\Cel.Modelo.Web\bin\Microsoft.Owin.Security.xml
+C:\Users\raul.silva\Desktop\projeto mother fucker\Modelo_rapido\Cel.Modelo\Cel.Modelo.Web\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\raul.silva\Desktop\projeto mother fucker\Modelo_rapido\Cel.Modelo\Cel.Modelo.Web\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\raul.silva\Desktop\projeto mother fucker\Modelo_rapido\Cel.Modelo\Cel.Modelo.Web\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\raul.silva\Desktop\projeto mother fucker\Modelo_rapido\Cel.Modelo\Cel.Modelo.Web\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\raul.silva\Desktop\projeto mother fucker\Modelo_rapido\Cel.Modelo\Cel.Modelo.Web\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\raul.silva\Desktop\projeto mother fucker\Modelo_rapido\Cel.Modelo\Cel.Modelo.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\raul.silva\Desktop\projeto mother fucker\Modelo_rapido\Cel.Modelo\Cel.Modelo.Web\obj\Debug\Cel.Modelo.Web.csprojResolveAssemblyReference.cache
+C:\Users\raul.silva\Desktop\projeto mother fucker\Modelo_rapido\Cel.Modelo\Cel.Modelo.Web\obj\Debug\Cel.Modelo.web.dll
+C:\Users\raul.silva\Desktop\projeto mother fucker\Modelo_rapido\Cel.Modelo\Cel.Modelo.Web\obj\Debug\Cel.Modelo.web.pdb
+C:\Users\raul.silva\Desktop\projeto mother fucker\Modelo_rapido\Cel.Modelo\Cel.Modelo.Web\bin\Cel.Modelo.Dominio.dll
+C:\Users\raul.silva\Desktop\projeto mother fucker\Modelo_rapido\Cel.Modelo\Cel.Modelo.Web\bin\CrossCuttingSimpleInjetiction.dll
+C:\Users\raul.silva\Desktop\projeto mother fucker\Modelo_rapido\Cel.Modelo\Cel.Modelo.Web\bin\Cel.Modelo.Dominio.pdb
+C:\Users\raul.silva\Desktop\projeto mother fucker\Modelo_rapido\Cel.Modelo\Cel.Modelo.Web\bin\CrossCuttingSimpleInjetiction.pdb
+C:\Users\raul.silva\Desktop\projeto mother fucker\Modelo_rapido\Cel.Modelo\Cel.Modelo.Web\bin\Cel.Modelo.Persistencia.EF.dll
+C:\Users\raul.silva\Desktop\projeto mother fucker\Modelo_rapido\Cel.Modelo\Cel.Modelo.Web\bin\Cel.Modelo.Comun.EF.dll
+C:\Users\raul.silva\Desktop\projeto mother fucker\Modelo_rapido\Cel.Modelo\Cel.Modelo.Web\bin\Cel.Modelo.Persistencia.EF.pdb
+C:\Users\raul.silva\Desktop\projeto mother fucker\Modelo_rapido\Cel.Modelo\Cel.Modelo.Web\bin\Cel.Modelo.Comun.EF.pdb
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_01\Cel.Modelo.Web\bin\Cel.Modelo.web.dll.config
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_01\Cel.Modelo.Web\bin\Cel.Modelo.web.dll
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_01\Cel.Modelo.Web\bin\Cel.Modelo.web.pdb
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_01\Cel.Modelo.Web\bin\Antlr3.Runtime.dll
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_01\Cel.Modelo.Web\bin\AutoMapper.dll
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_01\Cel.Modelo.Web\bin\Cel.Modelo.Dominio.dll
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_01\Cel.Modelo.Web\bin\CrossCuttingSimpleInjetiction.dll
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_01\Cel.Modelo.Web\bin\EntityFramework.dll
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_01\Cel.Modelo.Web\bin\EntityFramework.SqlServer.dll
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_01\Cel.Modelo.Web\bin\Microsoft.ApplicationInsights.Telemetry.Services.dll
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_01\Cel.Modelo.Web\bin\Microsoft.ApplicationInsights.Telemetry.Web.dll
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_01\Cel.Modelo.Web\bin\Microsoft.AspNet.Identity.Core.dll
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_01\Cel.Modelo.Web\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_01\Cel.Modelo.Web\bin\Microsoft.AspNet.Identity.Owin.dll
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_01\Cel.Modelo.Web\bin\Microsoft.Owin.dll
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_01\Cel.Modelo.Web\bin\Microsoft.Owin.Host.SystemWeb.dll
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_01\Cel.Modelo.Web\bin\Microsoft.Owin.Security.Cookies.dll
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_01\Cel.Modelo.Web\bin\Microsoft.Owin.Security.dll
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_01\Cel.Modelo.Web\bin\Microsoft.Owin.Security.Facebook.dll
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_01\Cel.Modelo.Web\bin\Microsoft.Owin.Security.Google.dll
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_01\Cel.Modelo.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_01\Cel.Modelo.Web\bin\Microsoft.Owin.Security.OAuth.dll
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_01\Cel.Modelo.Web\bin\Microsoft.Owin.Security.Twitter.dll
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_01\Cel.Modelo.Web\bin\Microsoft.Web.Infrastructure.dll
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_01\Cel.Modelo.Web\bin\Newtonsoft.Json.dll
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_01\Cel.Modelo.Web\bin\Owin.dll
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_01\Cel.Modelo.Web\bin\SimpleInjector.dll
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_01\Cel.Modelo.Web\bin\SimpleInjector.Integration.Web.dll
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_01\Cel.Modelo.Web\bin\SimpleInjector.Integration.Web.Mvc.dll
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_01\Cel.Modelo.Web\bin\System.Web.Helpers.dll
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_01\Cel.Modelo.Web\bin\System.Web.Mvc.dll
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_01\Cel.Modelo.Web\bin\System.Web.Optimization.dll
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_01\Cel.Modelo.Web\bin\System.Web.Razor.dll
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_01\Cel.Modelo.Web\bin\System.Web.WebPages.Deployment.dll
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_01\Cel.Modelo.Web\bin\System.Web.WebPages.dll
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_01\Cel.Modelo.Web\bin\System.Web.WebPages.Razor.dll
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_01\Cel.Modelo.Web\bin\WebActivator.dll
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_01\Cel.Modelo.Web\bin\WebGrease.dll
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_01\Cel.Modelo.Web\bin\Cel.Modelo.Persistencia.EF.dll
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_01\Cel.Modelo.Web\bin\Cel.Modelo.Comun.EF.dll
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_01\Cel.Modelo.Web\bin\Cel.Modelo.Dominio.pdb
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_01\Cel.Modelo.Web\bin\CrossCuttingSimpleInjetiction.pdb
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_01\Cel.Modelo.Web\bin\AutoMapper.xml
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_01\Cel.Modelo.Web\bin\EntityFramework.xml
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_01\Cel.Modelo.Web\bin\EntityFramework.SqlServer.xml
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_01\Cel.Modelo.Web\bin\Microsoft.ApplicationInsights.Telemetry.Services.xml
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_01\Cel.Modelo.Web\bin\Microsoft.ApplicationInsights.Telemetry.Web.xml
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_01\Cel.Modelo.Web\bin\SimpleInjector.xml
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_01\Cel.Modelo.Web\bin\SimpleInjector.Integration.Web.xml
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_01\Cel.Modelo.Web\bin\SimpleInjector.Integration.Web.Mvc.xml
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_01\Cel.Modelo.Web\bin\System.Web.Helpers.xml
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_01\Cel.Modelo.Web\bin\System.Web.Mvc.xml
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_01\Cel.Modelo.Web\bin\System.Web.Optimization.xml
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_01\Cel.Modelo.Web\bin\System.Web.Razor.xml
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_01\Cel.Modelo.Web\bin\System.Web.WebPages.xml
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_01\Cel.Modelo.Web\bin\System.Web.WebPages.Deployment.xml
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_01\Cel.Modelo.Web\bin\System.Web.WebPages.Razor.xml
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_01\Cel.Modelo.Web\bin\Newtonsoft.Json.xml
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_01\Cel.Modelo.Web\bin\Antlr3.Runtime.pdb
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_01\Cel.Modelo.Web\bin\Microsoft.AspNet.Identity.Core.xml
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_01\Cel.Modelo.Web\bin\Microsoft.AspNet.Identity.Owin.xml
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_01\Cel.Modelo.Web\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_01\Cel.Modelo.Web\bin\Microsoft.Owin.xml
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_01\Cel.Modelo.Web\bin\Microsoft.Owin.Host.SystemWeb.xml
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_01\Cel.Modelo.Web\bin\Microsoft.Owin.Security.xml
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_01\Cel.Modelo.Web\bin\Microsoft.Owin.Security.Facebook.xml
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_01\Cel.Modelo.Web\bin\Microsoft.Owin.Security.Cookies.xml
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_01\Cel.Modelo.Web\bin\Microsoft.Owin.Security.OAuth.xml
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_01\Cel.Modelo.Web\bin\Microsoft.Owin.Security.Google.xml
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_01\Cel.Modelo.Web\bin\Microsoft.Owin.Security.Twitter.xml
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_01\Cel.Modelo.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_01\Cel.Modelo.Web\bin\Cel.Modelo.Persistencia.EF.pdb
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_01\Cel.Modelo.Web\bin\Cel.Modelo.Comun.EF.pdb
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_01\Cel.Modelo.Web\obj\Debug\Cel.Modelo.Web.csprojResolveAssemblyReference.cache
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_01\Cel.Modelo.Web\obj\Debug\Cel.Modelo.web.dll
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_01\Cel.Modelo.Web\obj\Debug\Cel.Modelo.web.pdb
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_02\Cel.Modelo.Web\bin\Cel.Modelo.web.dll.config
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_02\Cel.Modelo.Web\bin\Cel.Modelo.web.dll
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_02\Cel.Modelo.Web\bin\Cel.Modelo.web.pdb
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_02\Cel.Modelo.Web\bin\Antlr3.Runtime.dll
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_02\Cel.Modelo.Web\bin\AutoMapper.dll
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_02\Cel.Modelo.Web\bin\Cel.Modelo.Dominio.dll
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_02\Cel.Modelo.Web\bin\CrossCuttingSimpleInjetiction.dll
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_02\Cel.Modelo.Web\bin\EntityFramework.dll
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_02\Cel.Modelo.Web\bin\EntityFramework.SqlServer.dll
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_02\Cel.Modelo.Web\bin\Microsoft.ApplicationInsights.Telemetry.Services.dll
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_02\Cel.Modelo.Web\bin\Microsoft.ApplicationInsights.Telemetry.Web.dll
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_02\Cel.Modelo.Web\bin\Microsoft.AspNet.Identity.Core.dll
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_02\Cel.Modelo.Web\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_02\Cel.Modelo.Web\bin\Microsoft.AspNet.Identity.Owin.dll
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_02\Cel.Modelo.Web\bin\Microsoft.Owin.dll
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_02\Cel.Modelo.Web\bin\Microsoft.Owin.Host.SystemWeb.dll
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_02\Cel.Modelo.Web\bin\Microsoft.Owin.Security.Cookies.dll
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_02\Cel.Modelo.Web\bin\Microsoft.Owin.Security.dll
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_02\Cel.Modelo.Web\bin\Microsoft.Owin.Security.Facebook.dll
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_02\Cel.Modelo.Web\bin\Microsoft.Owin.Security.Google.dll
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_02\Cel.Modelo.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_02\Cel.Modelo.Web\bin\Microsoft.Owin.Security.OAuth.dll
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_02\Cel.Modelo.Web\bin\Microsoft.Owin.Security.Twitter.dll
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_02\Cel.Modelo.Web\bin\Microsoft.Web.Infrastructure.dll
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_02\Cel.Modelo.Web\bin\Newtonsoft.Json.dll
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_02\Cel.Modelo.Web\bin\Owin.dll
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_02\Cel.Modelo.Web\bin\SimpleInjector.dll
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_02\Cel.Modelo.Web\bin\SimpleInjector.Integration.Web.dll
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_02\Cel.Modelo.Web\bin\SimpleInjector.Integration.Web.Mvc.dll
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_02\Cel.Modelo.Web\bin\System.Web.Helpers.dll
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_02\Cel.Modelo.Web\bin\System.Web.Mvc.dll
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_02\Cel.Modelo.Web\bin\System.Web.Optimization.dll
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_02\Cel.Modelo.Web\bin\System.Web.Razor.dll
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_02\Cel.Modelo.Web\bin\System.Web.WebPages.Deployment.dll
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_02\Cel.Modelo.Web\bin\System.Web.WebPages.dll
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_02\Cel.Modelo.Web\bin\System.Web.WebPages.Razor.dll
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_02\Cel.Modelo.Web\bin\WebActivator.dll
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_02\Cel.Modelo.Web\bin\WebGrease.dll
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_02\Cel.Modelo.Web\bin\Cel.Modelo.Persistencia.EF.dll
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_02\Cel.Modelo.Web\bin\Cel.Modelo.Comun.EF.dll
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_02\Cel.Modelo.Web\bin\Cel.Modelo.Dominio.pdb
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_02\Cel.Modelo.Web\bin\CrossCuttingSimpleInjetiction.pdb
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_02\Cel.Modelo.Web\bin\AutoMapper.xml
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_02\Cel.Modelo.Web\bin\EntityFramework.xml
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_02\Cel.Modelo.Web\bin\EntityFramework.SqlServer.xml
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_02\Cel.Modelo.Web\bin\Microsoft.ApplicationInsights.Telemetry.Services.xml
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_02\Cel.Modelo.Web\bin\Microsoft.ApplicationInsights.Telemetry.Web.xml
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_02\Cel.Modelo.Web\bin\SimpleInjector.xml
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_02\Cel.Modelo.Web\bin\SimpleInjector.Integration.Web.xml
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_02\Cel.Modelo.Web\bin\SimpleInjector.Integration.Web.Mvc.xml
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_02\Cel.Modelo.Web\bin\System.Web.Helpers.xml
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_02\Cel.Modelo.Web\bin\System.Web.Mvc.xml
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_02\Cel.Modelo.Web\bin\System.Web.Optimization.xml
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_02\Cel.Modelo.Web\bin\System.Web.Razor.xml
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_02\Cel.Modelo.Web\bin\System.Web.WebPages.xml
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_02\Cel.Modelo.Web\bin\System.Web.WebPages.Deployment.xml
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_02\Cel.Modelo.Web\bin\System.Web.WebPages.Razor.xml
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_02\Cel.Modelo.Web\bin\Newtonsoft.Json.xml
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_02\Cel.Modelo.Web\bin\Antlr3.Runtime.pdb
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_02\Cel.Modelo.Web\bin\Microsoft.AspNet.Identity.Core.xml
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_02\Cel.Modelo.Web\bin\Microsoft.AspNet.Identity.Owin.xml
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_02\Cel.Modelo.Web\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_02\Cel.Modelo.Web\bin\Microsoft.Owin.xml
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_02\Cel.Modelo.Web\bin\Microsoft.Owin.Host.SystemWeb.xml
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_02\Cel.Modelo.Web\bin\Microsoft.Owin.Security.xml
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_02\Cel.Modelo.Web\bin\Microsoft.Owin.Security.Facebook.xml
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_02\Cel.Modelo.Web\bin\Microsoft.Owin.Security.Cookies.xml
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_02\Cel.Modelo.Web\bin\Microsoft.Owin.Security.OAuth.xml
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_02\Cel.Modelo.Web\bin\Microsoft.Owin.Security.Google.xml
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_02\Cel.Modelo.Web\bin\Microsoft.Owin.Security.Twitter.xml
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_02\Cel.Modelo.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_02\Cel.Modelo.Web\bin\Cel.Modelo.Persistencia.EF.pdb
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_02\Cel.Modelo.Web\bin\Cel.Modelo.Comun.EF.pdb
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_02\Cel.Modelo.Web\obj\Debug\Cel.Modelo.Web.csprojResolveAssemblyReference.cache
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_02\Cel.Modelo.Web\obj\Debug\Cel.Modelo.web.dll
+R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_02\Cel.Modelo.Web\obj\Debug\Cel.Modelo.web.pdb
