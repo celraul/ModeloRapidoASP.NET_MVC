@@ -9,6 +9,6 @@ namespace Cel.Modelo.Dominio.Interfaces.Repository
 {
     public interface IusuarioRepository :IRepositoryBase<Usuario>
     {
-        IEnumerable<Usuario> BuscarPorNome(string nome);
+        List<Usuario> BuscarPorNome(string nome);
     }
 }

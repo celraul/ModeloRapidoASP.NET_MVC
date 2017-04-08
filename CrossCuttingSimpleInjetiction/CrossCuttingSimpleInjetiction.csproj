@@ -61,6 +61,10 @@
       <Project>{15c88ab8-d411-4f94-bcb9-fc121e0cdc39}</Project>
       <Name>Cel.Modelo.Persistencia.EF</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Cel.Modelo.Repositorio\Cel.Modelo.Repositorio.csproj">
+      <Project>{e165673f-e2d1-4329-88ed-891ef53341b7}</Project>
+      <Name>Cel.Modelo.Repositorio</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

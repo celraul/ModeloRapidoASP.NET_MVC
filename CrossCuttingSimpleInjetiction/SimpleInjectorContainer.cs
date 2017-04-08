@@ -1,5 +1,6 @@
 ﻿using Cel.Modelo.Dominio.Interfaces.Repository;
 using Cel.Modelo.Persistencia.EF.Repository;
+using Cel.Modelo.Repositorio;
 using SimpleInjector;
 using System;
 using System.Collections.Generic;

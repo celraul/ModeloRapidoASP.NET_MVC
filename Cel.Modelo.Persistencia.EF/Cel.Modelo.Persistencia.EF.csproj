@@ -53,11 +53,7 @@
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Repository\EmpresaRepository.cs" />
-    <Compile Include="Repository\FeedRepository.cs" />
-    <Compile Include="Repository\NotificacaoRepository.cs" />
     <Compile Include="Repository\RepositoryBase.cs" />
-    <Compile Include="Repository\UsuarioRepository.cs" />
     <Compile Include="TypeConfiguration\AlbumTypeConfiguration.cs" />
     <Compile Include="TypeConfiguration\EmpresaTypeConfiguration.cs" />
     <Compile Include="TypeConfiguration\FeedTypeConfiguration.cs" />
