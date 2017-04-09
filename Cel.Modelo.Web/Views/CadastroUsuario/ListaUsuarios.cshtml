@@ -33,20 +33,25 @@
             <h3 class="panel-title"><i class="fa fa-search"></i> Pesquisa</h3>
         </div>
         <div class="panel-body text-center">
-            <form class="form-inline" action="">
-                <div class="form-group">
-                    <label for="nome">Nome</label>
-                    <input type="text" class="form-control" id="nome" placeholder="João">
-                </div>
-                <div class="form-group">
-                    <label for="nome">Usuário</label>
-                    <input type="text" class="form-control" id="nome" placeholder="joao.silva">
-                </div>
-                <div class="text-right">
-                    <input type="button" class=" btn btn-primary" value="Pesquisar" />
-                </div>
-            </form>
 
+            @using (Html.BeginForm("ListaUsuarios", "CadastroUsuario", FormMethod.Post, new { @class = "form-inline" }))
+            {
+                @Html.Hidden("pesquisa", true)
+                <div class="form-group">
+                    <label for="lblNome">Nome</label>
+                    <input type="text" class="form-control" name="nome" id="nome" value="@ViewBag.Filtro.Nome" placeholder="João">
+                </div>
+
+                <div class="form-group">
+                    <label for="lblUserName">Usuário</label>
+                    <input type="text" class="form-control" id="userName" name="userName" value="@ViewBag.Filtro.UserName" placeholder="joao.silva">
+                </div>
+
+                <div class="text-right">
+                    <input type="submit" class="btn btn-primary" value="Pesquisar" />
+                </div>
+
+            }
 
         </div>
     </div>
@@ -59,64 +64,89 @@
         <div class="panel-body">
             <div class="row text-right">
                 <a href="@Url.Action("Create") " class="btn btn-primary">
-                    <span class="glyphicon glyphicon-plus" aria-hidden="true">Adicionar </span> 
+                    <span class="glyphicon glyphicon-plus" aria-hidden="true">Adicionar </span>
                 </a>
             </div>
-
-            <div class="table-responsive">
-                <table class="table table-striped table-hover">
-                    <thead>
-                        @*<tr>
-                            <th>
-                                @Html.DisplayNameFor(model => model.Nome)
-                            </th>
-                            <th>
-                                @Html.DisplayNameFor(model => model.UserName)
-                            </th>
-                            <th>
-                                @Html.DisplayNameFor(model => model.Email)
-                            </th>
-                            <th>
-                                @Html.DisplayNameFor(model => model.Ativo)
-                            </th>
-                            <th>Ações</th>
-                        </tr>*@
-                    </thead>
-
-                    <tbody>
-                        @foreach (var item in Model)
-                        {
+            <div class="row">
+                <div class="table-responsive">
+                    <table class="table table-striped table-hover">
+                        <thead>
                             <tr>
-                                <td>
-                                    @Html.DisplayFor(modelItem => item.Nome)
-                                </td>
-                                <td>
-                                    @Html.DisplayFor(modelItem => item.UserName)
-                                </td>
-                                <td>
-                                    @Html.DisplayFor(modelItem => item.Email)
-                                </td>
-                                <td>
-                                    @Html.DisplayFor(modelItem => item.Ativo)
-                                </td>
-                                <td>
-                                    @*@Html.ActionLink("Edit", "Edit", new { id = item.Id }) |
-                                    @Html.ActionLink("Details", "Details", new { id = item.Id }) |
-                                    @Html.ActionLink("Delete", "Delete", new { id = item.Id })*@
-
-                                    <a href="@Url.Action("Create", new { id = item.IdUsuario })" class="btn btn-info">
-                                        <span class="glyphicon glyphicon-edit" aria-hidden="true"></span> Editar
-                                    </a>
-                                    <a href="@Url.Action("Delete")" class="btn btn-danger">
-                                        <span class="glyphicon glyphicon-trash" aria-hidden="true"></span> Excluir
-                                    </a>
-
-                                </td>
+                                <th class="text-center">
+                                    @Html.DisplayNameFor(model => model.First().Nome)
+                                </th>
+                                <th class="text-center">
+                                    @Html.DisplayNameFor(model => model.First().UserName)
+                                </th>
+                                <th class="text-center">
+                                    @Html.DisplayNameFor(model => model.First().Email)
+                                </th>
+                                <th class="text-center">
+                                    @Html.DisplayNameFor(model => model.First().Ativo)
+                                </th>
+                                <th class="text-center">Ações</th>
                             </tr>
-                        }
+                        </thead>
 
-                    </tbody>
-                </table>
+                        <tbody>
+
+                            @if (Model.Count() > 0)
+                            {
+                                foreach (var item in Model)
+                                {
+                                    <tr>
+                                        <td class="text-center">
+                                            @Html.DisplayFor(modelItem => item.Nome)
+                                        </td>
+                                        <td class="text-center">
+                                            @Html.DisplayFor(modelItem => item.UserName)
+                                        </td>
+                                        <td class="text-center">
+                                            @Html.DisplayFor(modelItem => item.Email)
+                                        </td>
+                                        <td class="text-center">
+                                            @if (item.Ativo)
+                                            {
+                                                @Html.Label("", "Sim")
+                                            }
+                                            else
+                                            {
+                                                @Html.Label("", "Não")
+                                            }
+                                        </td>
+                                        <td class="text-center">
+                                            @*@Html.ActionLink("Edit", "Edit", new { id = item.Id }) |
+                                                @Html.ActionLink("Details", "Details", new { id = item.Id }) |
+                                                @Html.ActionLink("Delete", "Delete", new { id = item.Id })*@
+
+                                            <a href="@Url.Action("Create", new { id = item.IdUsuario })" class="btn btn-info">
+                                                <span class="glyphicon glyphicon-edit" aria-hidden="true"></span> Editar
+                                            </a>
+                                            @*@using (Html.BeginForm("Delete", "CadastroUsuario", FormMethod.Post))
+                                                {
+                                                    @Html.Hidden("Id", item.IdUsuario)
+                                                    <input type="submit" value="Excluir" class="btn btn-danger" />
+                                                }*@
+
+
+                                            <a href="@Url.Action("Delete", new { id = item.IdUsuario })" class="btn btn-danger">
+                                                <span class="glyphicon glyphicon-trash" aria-hidden="true"></span> Excluir
+                                            </a>
+
+                                        </td>
+                                    </tr>
+                                }
+                            }
+                            else
+                            {
+                                <tr>
+                                    <td colspan="5" class="text-center"> Nenhum item para o filtro </td>
+                                </tr>
+                            }
+
+                        </tbody>
+                    </table>
+                </div>
             </div>
 
             <nav class="text-center">

@@ -10,7 +10,7 @@ namespace Cel.Modelo.web.Annotations
     {
         public override bool IsValid(object value)
         {
-            return !value.ToString().Contains(" ");
+            return true;//!value.ToString().Contains(" ");
         }
     }
 }

@@ -55,6 +55,11 @@ namespace Cel.Modelo.Persistencia.EF.Repository
             return _modeloDbContext.Set<TEntity>().ToList();
         }
 
+        public virtual IEnumerable<TEntity> GetList(Func<TEntity,bool> func)
+        {
+            return _modeloDbContext.Set<TEntity>().ToList().Where(func);
+        }
+
         public IEnumerable<TEntity> GetALLAsNoTracking()
         {
             return _modeloDbContext.Set<TEntity>().AsNoTracking().ToList();

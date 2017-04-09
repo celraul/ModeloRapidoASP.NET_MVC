@@ -47,6 +47,7 @@
     <Compile Include="Enum\TipoNotificacao.cs" />
     <Compile Include="Enum\TipoUsuario.cs" />
     <Compile Include="Enum\TipoVisualuzacao.cs" />
+    <Compile Include="Filtros\FiltroUsuarios.cs" />
     <Compile Include="Interfaces\Repository\IempresaRepository.cs" />
     <Compile Include="Interfaces\Repository\IfeedRepository.cs" />
     <Compile Include="Interfaces\Repository\InotificacaoRepository.cs" />

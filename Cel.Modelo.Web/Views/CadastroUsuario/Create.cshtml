@@ -80,7 +80,7 @@
             <div class="form-group">
                 @Html.LabelFor(model => model.Email, htmlAttributes: new { @class = "control-label col-md-2" })
                 <div class="col-md-10">
-                    @Html.DropDownListFor(model => model.IdEmpresa, (SelectList)ViewBag.SelectEmpresas)
+                    @Html.DropDownListFor(model => model.IdEmpresa, (SelectList)ViewBag.SelectEmpresas ) @*(SelectList)ViewBag.SelectEmpresas*@
                     @Html.ValidationMessageFor(model => model.IdEmpresa)
                 </div>
             </div>
@@ -89,7 +89,7 @@
                 @Html.LabelFor(model => model.Ativo, htmlAttributes: new { @class = "control-label col-md-2" })
                 <div class="col-md-10">
                     @Html.EditorFor(model => model.Ativo)
-                    @Html.ValidationMessageFor(model => model.Ativo)
+                    @Html.ValidationMessageFor(model => Model.Ativo)
                 </div>
             </div>
 

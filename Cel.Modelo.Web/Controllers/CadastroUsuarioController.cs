@@ -1,12 +1,12 @@
 ﻿using AutoMapper;
 using Cel.Modelo.Dominio.Entidades;
+using Cel.Modelo.Dominio.Filtros;
 using Cel.Modelo.Dominio.Interfaces.Repository;
 using Cel.Modelo.web.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net;
-using System.Web;
 using System.Web.Mvc;
 
 namespace Cel.Modelo.web.webControllers
@@ -23,11 +23,16 @@ namespace Cel.Modelo.web.webControllers
         }
 
         // GET: CadastroUsuario
-        public ActionResult ListaUsuarios()
+        public ActionResult ListaUsuarios(FormCollection form)
         {
-            var usuarios = Mapper.Map<IEnumerable<Usuario>, IEnumerable<UsuarioViewModel>>(_usuarioRepository.GetALL()).ToList();
+            var nome = form["nome"];
+            var userName = form["userName"];
+            var filtro = new FiltroUsuarios() { Nome = nome, UserName = userName };
+          
+            var usuarios = _usuarioRepository.BuscaPorFiltro(filtro);
+            ViewBag.Filtro = filtro;
 
-            return View(usuarios);
+            return View(Mapper.Map<IEnumerable<Usuario>, IEnumerable<UsuarioViewModel>>(usuarios));
         }
 
         // GET: CadastroUsuario/Details/5
@@ -36,7 +41,7 @@ namespace Cel.Modelo.web.webControllers
             return View();
         }
 
-        // GET: CadastroUsuario/Create
+        // GET: CadastroUsuario/Create or Edit
         public ActionResult Create(int? id)
         {
             List<EmpresaViewModel> Empresas = new List<EmpresaViewModel>();
@@ -44,7 +49,6 @@ namespace Cel.Modelo.web.webControllers
             Empresas.Add(new EmpresaViewModel());
             Empresas.AddRange(Mapper.Map<IEnumerable<Empresa>, IEnumerable<EmpresaViewModel>>(_empresaRepository.GetALL()).ToList());
             SelectList selectEmpresas = new SelectList(Empresas, "IdEmpresa", "NomeFantasia");
-
             ViewBag.SelectEmpresas = selectEmpresas;
 
             if (id.HasValue)
@@ -74,7 +78,7 @@ namespace Cel.Modelo.web.webControllers
                 if (ModelState.IsValid)
                 {
                     var usuario = Mapper.Map<UsuarioViewModel, Usuario>(userViewModel);
-                    _usuarioRepository.SalvaUsuario(usuario);
+                    _usuarioRepository.SalvarUsuario(usuario);
 
                     return RedirectToAction("ListaUsuarios");
                 }
@@ -93,26 +97,28 @@ namespace Cel.Modelo.web.webControllers
             }
         }
 
-        // GET: CadastroUsuario/Delete/5
-        public ActionResult Delete(int id)
-        {
-            return View();
-        }
-
-        // POST: CadastroUsuario/Delete/5
-        [HttpPost]
-        public ActionResult Delete(int id, FormCollection collection)
+        // POST: CadastroUsuario/Delete/
+        //[HttpPost]
+        public ActionResult Delete(int? id)
         {
             try
             {
-                // TODO: Add delete logic here
+                if (id.HasValue)
+                {
+                    var usuario = _usuarioRepository.GetById((int)id);
+                    _usuarioRepository.RemoverUsuario(usuario);
 
-                return RedirectToAction("Index");
+                    return RedirectToAction("ListaUsuarios");
+                }
+                else
+                    return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+
             }
-            catch
+            catch (Exception ex)
             {
                 return View();
             }
         }
+
     }
 }

@@ -7,12 +7,11 @@ using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Web;
 
-
 namespace Cel.Modelo.web.ViewModels
 {
     public class UsuarioViewModel
     {
-        public int IdUsuario { get; set; }
+        public int? IdUsuario { get; set; }
 
         [Required(ErrorMessage = "Preencha o campo Nome")]
         [MaxLength(100, ErrorMessage = "Máximo {0} caracteres")]
@@ -20,7 +19,7 @@ namespace Cel.Modelo.web.ViewModels
         public string Nome { get; set; }
 
         [Required(ErrorMessage = "Preencha o campo nome do usuário")]
-        [DisplayName("Nome Usuário")]
+        [DisplayName("Usuário")]
         [MaxLength(20, ErrorMessage = "Máximo {0} caracteres")]
         [MinLength(4, ErrorMessage = "Minimo {0} caracteres")]
         [StringEspaçosEmBrancoModelProfile(ErrorMessage = "Nome de usúario não pode conter espaços")]
@@ -34,9 +33,9 @@ namespace Cel.Modelo.web.ViewModels
         public string Password { get; set; }
 
         [DataType(DataType.Password)]
-        [Display(Name = "Confirmar a senha")]
+        [Display(Name = "Confirmar senha")]
         [Compare("Password", ErrorMessage = "A senhe e a confirmação da senha são diferentes")]
-        [NotMapped]
+     //   [NotMapped]
         public string ConfirmaPassword { get; set; }
 
         [Required(ErrorMessage = "Preencha o campo E-mail ")]
@@ -48,11 +47,12 @@ namespace Cel.Modelo.web.ViewModels
         public string Email { get; set; }
 
         [ScaffoldColumn(false)]
-        public DateTime? DataCriacao { get; set; }
+       // public DateTime? DataCriacao { get; set; }
         public bool Ativo { get; set; }
 
         [Required(ErrorMessage = "Preencha o campo empresa")]
         public int IdEmpresa { get; set; }
+       // public IEnumerable<System.Web.Mvc.SelectListItem> Empresas { get; set; }
 
         //  public virtual EmpresaViewModel Empresa { get; set; }
         //public virtual Empresa empresa { get; set; }

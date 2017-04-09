@@ -13,6 +13,7 @@ namespace Cel.Modelo.Dominio.Interfaces.Repository
         TEntity GetById(int id);
         IEnumerable<TEntity> GetALL();
         IEnumerable<TEntity> GetALLAsNoTracking();
+        IEnumerable<TEntity> GetList(Func<TEntity, bool> func);
         void Update(TEntity obj);
         void Remove(TEntity obj);
         void Dispose();
