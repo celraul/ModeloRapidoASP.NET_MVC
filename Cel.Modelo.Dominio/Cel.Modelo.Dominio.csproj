@@ -43,8 +43,10 @@
     <Compile Include="Entidades\Empresa.cs" />
     <Compile Include="Entidades\Feed.cs" />
     <Compile Include="Entidades\Notificacao.cs" />
+    <Compile Include="Entidades\Toast.cs" />
     <Compile Include="Entidades\Usuario.cs" />
     <Compile Include="Enum\TipoNotificacao.cs" />
+    <Compile Include="Enum\TipoToast.cs" />
     <Compile Include="Enum\TipoUsuario.cs" />
     <Compile Include="Enum\TipoVisualuzacao.cs" />
     <Compile Include="Filtros\FiltroUsuarios.cs" />

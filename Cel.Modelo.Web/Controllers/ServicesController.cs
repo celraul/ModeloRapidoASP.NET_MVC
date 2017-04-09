@@ -7,6 +7,7 @@ using System.Web.Mvc;
 
 namespace Cel.Modelo.web.Controllers
 {
+    [Authorize]
     public class ServicesController : Controller, IControllerSearch
     {
 

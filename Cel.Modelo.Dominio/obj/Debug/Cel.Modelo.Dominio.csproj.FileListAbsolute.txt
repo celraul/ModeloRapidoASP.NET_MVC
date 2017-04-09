@@ -14,6 +14,6 @@ R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_02\Cel.Modelo.Dominio\obj\Deb
 R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_02\Cel.Modelo.Dominio\obj\Debug\Cel.Modelo.Dominio.pdb
 R:\Desenvolvedor\projetos\ModeloRapidoASP.NET_MVC\Cel.Modelo.Dominio\bin\Debug\Cel.Modelo.Dominio.dll
 R:\Desenvolvedor\projetos\ModeloRapidoASP.NET_MVC\Cel.Modelo.Dominio\bin\Debug\Cel.Modelo.Dominio.pdb
-R:\Desenvolvedor\projetos\ModeloRapidoASP.NET_MVC\Cel.Modelo.Dominio\obj\Debug\Cel.Modelo.Dominio.csprojResolveAssemblyReference.cache
 R:\Desenvolvedor\projetos\ModeloRapidoASP.NET_MVC\Cel.Modelo.Dominio\obj\Debug\Cel.Modelo.Dominio.dll
 R:\Desenvolvedor\projetos\ModeloRapidoASP.NET_MVC\Cel.Modelo.Dominio\obj\Debug\Cel.Modelo.Dominio.pdb
+R:\Desenvolvedor\projetos\ModeloRapidoASP.NET_MVC\Cel.Modelo.Dominio\obj\Debug\Cel.Modelo.Dominio.csprojResolveAssemblyReference.cache

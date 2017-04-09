@@ -180,6 +180,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ActionsFilters\TesteActionFilter.cs" />
     <Compile Include="Annotations\EmailPersonalizadoModelProfile.cs" />
     <Compile Include="Annotations\StringEspaçosEmBrancoModelProfile.cs" />
     <Compile Include="App_Start\BundleConfig.cs" />
@@ -192,6 +193,8 @@
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\CadastroUsuarioController.cs" />
     <Compile Include="Controllers\ConfiguracoesController.cs" />
+    <Compile Include="Controllers\ControllerBasico.cs" />
+    <Compile Include="Controllers\ErrorController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ServicesController.cs" />
     <Compile Include="Global.asax.cs">
@@ -224,6 +227,7 @@
     <Content Include="Content\font-awesome.min.css" />
     <Content Include="Content\justified-nav.css" />
     <Content Include="Content\Login.css" />
+    <Content Include="Content\Toast.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
@@ -260,6 +264,7 @@
     <None Include="Scripts\jquery.validate-vsdoc.js" />
     <Content Include="Scripts\jquery.backstretch.js" />
     <Content Include="Scripts\jquery.backstretch.min.js" />
+    <Content Include="Scripts\jquery.confirm.js" />
     <Content Include="Scripts\jquery.validate.js" />
     <Content Include="Scripts\jquery.validate.min.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
@@ -268,6 +273,8 @@
     <Content Include="Scripts\placeholder.js" />
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
+    <Content Include="Scripts\Toast.js" />
+    <Content Include="Scripts\Utils.js" />
     <Content Include="Scripts\scriptsLogin.js" />
     <Content Include="Scripts\_references.js" />
     <Content Include="Web.config">
@@ -281,7 +288,7 @@
     </Content>
     <Content Include="Views\Web.config" />
     <Content Include="Views\_ViewStart.cshtml" />
-    <Content Include="Views\Shared\Error.cshtml" />
+    <Content Include="Views\Shared\_Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
@@ -301,6 +308,9 @@
     <Content Include="Views\Configuracoes\Lista.cshtml" />
     <Content Include="Views\CadastroUsuario\ListaUsuarios.cshtml" />
     <Content Include="Views\CadastroUsuario\Create.cshtml" />
+    <Content Include="Views\Error\Default.cshtml" />
+    <Content Include="Views\Error\NotFound.cshtml" />
+    <Content Include="Views\Error\Error.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />

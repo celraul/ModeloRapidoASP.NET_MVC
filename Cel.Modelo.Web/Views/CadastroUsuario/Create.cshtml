@@ -30,13 +30,15 @@
         </div>
     </div>
 
-    @using (Html.BeginForm("Create", "CadastroUsuario", FormMethod.Post))
+    @using (Html.BeginForm("Create", "CadastroUsuario", FormMethod.Post, new { @class = "form-validate"  }))
     {
+        @Html.AntiForgeryToken()
+        @Html.ValidationSummary(true)
+
         <div class="form-horizontal">
             <hr />
             @Html.HiddenFor(model => model.IdUsuario)
             
-            @Html.ValidationSummary(true)
             <div class="form-group">
                 @Html.LabelFor(model => model.Nome, htmlAttributes: new { @class = "control-label col-md-2" })
                 <div class="col-md-10">
@@ -78,7 +80,7 @@
             </div>
             
             <div class="form-group">
-                @Html.LabelFor(model => model.Email, htmlAttributes: new { @class = "control-label col-md-2" })
+                @Html.LabelFor(model => model.IdEmpresa, htmlAttributes: new { @class = "control-label col-md-2" })
                 <div class="col-md-10">
                     @Html.DropDownListFor(model => model.IdEmpresa, (SelectList)ViewBag.SelectEmpresas ) @*(SelectList)ViewBag.SelectEmpresas*@
                     @Html.ValidationMessageFor(model => model.IdEmpresa)
@@ -96,7 +98,7 @@
             <div class="form-group">
                 <div class="col-md-offset-2 col-md-10">
                     @Html.ActionLink("voltar", "ListaUsuarios", "", new { @class = "btn btn-default" })
-                    <input type="submit" value="salvar" class="btn btn-primary" />
+                    <input type="submit" value="salvar" class="btn btn-primary confirm-alert" />
                 </div>
             </div>
         </div>

@@ -19,7 +19,7 @@ namespace CrossCuttingSimpleInjetiction
             var container = new Container();
 
             #region Repository
-           // container.Register<DbContext, ModeloDbContext>();
+            // container.Register<DbContext, ModeloDbContext>();
 
             container.Register<IusuarioRepository, UsuarioRepository>(Lifestyle.Singleton);
             container.Register<IempresaRepository, EmpresaRepository>(Lifestyle.Singleton);

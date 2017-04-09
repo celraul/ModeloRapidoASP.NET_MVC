@@ -2,16 +2,21 @@
 using Cel.Modelo.Dominio.Entidades;
 using Cel.Modelo.Dominio.Filtros;
 using Cel.Modelo.Dominio.Interfaces.Repository;
+using Cel.Modelo.web.Controllers;
 using Cel.Modelo.web.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net;
+using System.Net.Http;
+using System.Web;
 using System.Web.Mvc;
+
 
 namespace Cel.Modelo.web.webControllers
 {
-    public class CadastroUsuarioController : Controller
+    [Authorize]
+    public class CadastroUsuarioController : ControllerBasico
     {
         private readonly IusuarioRepository _usuarioRepository;
         private readonly IempresaRepository _empresaRepository;
@@ -28,7 +33,7 @@ namespace Cel.Modelo.web.webControllers
             var nome = form["nome"];
             var userName = form["userName"];
             var filtro = new FiltroUsuarios() { Nome = nome, UserName = userName };
-          
+
             var usuarios = _usuarioRepository.BuscaPorFiltro(filtro);
             ViewBag.Filtro = filtro;
 
@@ -46,10 +51,8 @@ namespace Cel.Modelo.web.webControllers
         {
             List<EmpresaViewModel> Empresas = new List<EmpresaViewModel>();
 
-            Empresas.Add(new EmpresaViewModel());
-            Empresas.AddRange(Mapper.Map<IEnumerable<Empresa>, IEnumerable<EmpresaViewModel>>(_empresaRepository.GetALL()).ToList());
-            SelectList selectEmpresas = new SelectList(Empresas, "IdEmpresa", "NomeFantasia");
-            ViewBag.SelectEmpresas = selectEmpresas;
+
+            ViewBag.SelectEmpresas = ListagemEmpresas();
 
             if (id.HasValue)
             {
@@ -60,7 +63,14 @@ namespace Cel.Modelo.web.webControllers
                     return View(usuarioViewModel);
                 }
                 else
-                    return HttpNotFound();
+                {
+                    throw new HttpException((int)HttpStatusCode.InternalServerError, " erro id usuário incorreto ");
+
+                    //throw new Exception("erro");
+                }
+                //throw new Exception("erro");
+                //throw new HttpException((int)HttpStatusCode.InternalServerError," erro id usuário incorreto ");
+
             }
             //else
             //    return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
@@ -80,10 +90,15 @@ namespace Cel.Modelo.web.webControllers
                     var usuario = Mapper.Map<UsuarioViewModel, Usuario>(userViewModel);
                     _usuarioRepository.SalvarUsuario(usuario);
 
+                    SetToast(new Toast(Dominio.Enum.TipoToast.Success, "Usuario Salvo com Sucesso."));
+                    ShowToast();
+
                     return RedirectToAction("ListaUsuarios");
+
                 }
                 else
                 {
+                    ViewBag.SelectEmpresas = ListagemEmpresas();
                     ModelState.AddModelError(string.Empty, "Erro ao salvar Usuario.");
 
                     return View(userViewModel);
@@ -118,6 +133,18 @@ namespace Cel.Modelo.web.webControllers
             {
                 return View();
             }
+        }
+
+        private SelectList ListagemEmpresas()
+        {
+            List<EmpresaViewModel> Empresas = new List<EmpresaViewModel>();
+
+            Empresas.Add(new EmpresaViewModel());
+            Empresas.AddRange(Mapper.Map<IEnumerable<Empresa>, IEnumerable<EmpresaViewModel>>(_empresaRepository.GetALL()).ToList());
+            SelectList selectEmpresas = new SelectList(Empresas, "IdEmpresa", "NomeFantasia");
+
+            return selectEmpresas;
+
         }
 
     }

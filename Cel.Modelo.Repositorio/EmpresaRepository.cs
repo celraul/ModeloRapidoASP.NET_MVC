@@ -16,5 +16,9 @@ namespace Cel.Modelo.Repositorio
         {
             base._modeloDbContext = new ModeloDbContext();
         }
+
+        #region Listagens
+
+        #endregion
     }
 }

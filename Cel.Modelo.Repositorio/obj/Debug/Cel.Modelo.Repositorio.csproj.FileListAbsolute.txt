@@ -3,9 +3,6 @@ R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_02\Cel.Modelo.Repositorio\bin
 R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_02\Cel.Modelo.Repositorio\obj\Debug\Cel.Modelo.Repositorio.csprojResolveAssemblyReference.cache
 R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_02\Cel.Modelo.Repositorio\obj\Debug\Cel.Modelo.Repositorio.dll
 R:\Desenvolvedor\projetos\Modelo_rapido\Cel.Modelo_02\Cel.Modelo.Repositorio\obj\Debug\Cel.Modelo.Repositorio.pdb
-R:\Desenvolvedor\projetos\ModeloRapidoASP.NET_MVC\Cel.Modelo.Repositorio\obj\Debug\Cel.Modelo.Repositorio.csprojResolveAssemblyReference.cache
-R:\Desenvolvedor\projetos\ModeloRapidoASP.NET_MVC\Cel.Modelo.Repositorio\obj\Debug\Cel.Modelo.Repositorio.dll
-R:\Desenvolvedor\projetos\ModeloRapidoASP.NET_MVC\Cel.Modelo.Repositorio\obj\Debug\Cel.Modelo.Repositorio.pdb
 R:\Desenvolvedor\projetos\ModeloRapidoASP.NET_MVC\Cel.Modelo.Repositorio\bin\Debug\Cel.Modelo.Repositorio.dll.config
 R:\Desenvolvedor\projetos\ModeloRapidoASP.NET_MVC\Cel.Modelo.Repositorio\bin\Debug\Cel.Modelo.Repositorio.dll
 R:\Desenvolvedor\projetos\ModeloRapidoASP.NET_MVC\Cel.Modelo.Repositorio\bin\Debug\Cel.Modelo.Repositorio.pdb
@@ -19,3 +16,6 @@ R:\Desenvolvedor\projetos\ModeloRapidoASP.NET_MVC\Cel.Modelo.Repositorio\bin\Deb
 R:\Desenvolvedor\projetos\ModeloRapidoASP.NET_MVC\Cel.Modelo.Repositorio\bin\Debug\EntityFramework.xml
 R:\Desenvolvedor\projetos\ModeloRapidoASP.NET_MVC\Cel.Modelo.Repositorio\bin\Debug\EntityFramework.SqlServer.xml
 R:\Desenvolvedor\projetos\ModeloRapidoASP.NET_MVC\Cel.Modelo.Repositorio\bin\Debug\Cel.Modelo.Comun.EF.pdb
+R:\Desenvolvedor\projetos\ModeloRapidoASP.NET_MVC\Cel.Modelo.Repositorio\obj\Debug\Cel.Modelo.Repositorio.csprojResolveAssemblyReference.cache
+R:\Desenvolvedor\projetos\ModeloRapidoASP.NET_MVC\Cel.Modelo.Repositorio\obj\Debug\Cel.Modelo.Repositorio.dll
+R:\Desenvolvedor\projetos\ModeloRapidoASP.NET_MVC\Cel.Modelo.Repositorio\obj\Debug\Cel.Modelo.Repositorio.pdb
