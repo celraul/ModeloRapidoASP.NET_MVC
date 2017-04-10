@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+
+        @Styles.Render("~/Content/css")
+        @Styles.Render("~/Custom/css")
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:400,100,300,500">
+
+    </head>
+    <body>
+        @Scripts.Render("~/bundles/jqueryBootstrap")
+        @Scripts.Render("~/bundles/jqueryval")
+        @Scripts.Render("~/Custom/js")
+
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" style="float:left"> Sistema Modelo </h5>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            <div class="modal-body">
+                @RenderBody()
+            </div>
+        </div>
+
+    </body>
+
+</html>
+
+

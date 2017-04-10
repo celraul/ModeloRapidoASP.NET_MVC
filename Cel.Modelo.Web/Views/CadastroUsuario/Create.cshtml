@@ -1,4 +1,5 @@
 ﻿@model Cel.Modelo.web.ViewModels.UsuarioViewModel
+@using Cel.Modelo.web.Helpers;
 
 @{
     ViewBag.Title = "Create";
@@ -98,7 +99,7 @@
             <div class="form-group">
                 <div class="col-md-offset-2 col-md-10">
                     @Html.ActionLink("voltar", "ListaUsuarios", "", new { @class = "btn btn-default" })
-                    <input type="submit" value="salvar" class="btn btn-primary confirm-alert" />
+                    @TagsHtmlHelper.ButtonSubmitConfirm("Salvar")
                 </div>
             </div>
         </div>

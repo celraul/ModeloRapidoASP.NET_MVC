@@ -147,5 +147,10 @@ namespace Cel.Modelo.web.webControllers
 
         }
 
+        public ActionResult Modal()
+        {
+            return View();
+        }
+
     }
 }

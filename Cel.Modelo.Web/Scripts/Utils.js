@@ -73,5 +73,73 @@ jQuery(document).ready(function () {
         });
     }
 
+    $('.paginacao').DataTable({
+        "info": false,
+        "searching": false,
+        "lengthChange": false,
+        "ordering": false,
+        "language": {
+            "lengthMenu": "registros de exibição _MENU_ por página",
+            "zeroRecords": "Sem dados para exibir - desculpe!",
+            "info": "Mostrando _PAGE_ de _PAGES_",
+            "infoEmpty": "Não há registros disponíveis",
+            "infoFiltered": "(filtrada dos registros totais _MAX_)",
+            "oPaginate": {
+                "sFirst": "Primeiro",
+                "sPrevious": "Anterior",
+                "sNext": "Próximo",
+                "sLast": "Último"
+            }
+        },
+        'aoColumnDefs': [{
+            'bSortable': false,
+            'aTargets': 0
+        }]
+
+    });
+
+    var trClick = $(".dataTable tr");
+    if (trClick.find('a').length > 0 && trClick.find('a').attr('data-toggle') == undefined) {
+
+        var table = $('.dataTable').DataTable();
+        table.on('draw', function () {
+            clickTr();
+        });
+
+        clickTr();
+    }
+
+    function clickTr() {
+        var trClick = $(".dataTable tr");
+        if (trClick.find('a').length > 0 && trClick.find('a').attr('data-toggle') == undefined) {
+
+            trClick.find('a').hide();
+            $(".dataTable th:last").hide();
+
+            trClick.attr('style', 'cursor:pointer');
+
+            $(".dataTable").addClass('table-hover');
+            $(".dataTable tr").on("click", function () {
+                if ($(this).find('a').length > 0) {
+                    document.location.href = $(this).find('a').attr('href');
+                }
+            });
+        }
+    }
+
+
+    linkTrTable();
+    if ($('.dataTable').length > 0) {
+
+        var table = $('.dataTable');
+
+        table.DataTable();
+        table.on('draw.dt', function () {
+            linkTrTable();
+        });
+    }
+
 
 });
+
+

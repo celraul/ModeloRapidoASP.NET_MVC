@@ -23,8 +23,10 @@ namespace Cel.Modelo.web
                         "~/Scripts/Custom/jquery.js",
                         "~/Scripts/jquery.confirm.js",
                         "~/Scripts/Utils.js",
-                        "~/Scripts/Toast.js"
+                        "~/Scripts/Toast.js",
+                        "~/Scripts/jquery-{version}.js"
                         ));
+
 
             bundles.Add(new ScriptBundle("~/bundles/jqueryval").Include("~/Scripts/jquery.validate*"));
 
@@ -61,8 +63,8 @@ namespace Cel.Modelo.web
                         "~/Content/Custom/morris.css",
                         "~/Content/Custom/sb-admin.css",
                         "~/Content/Custom/sb-admin-rtl.css"
-						//"~/Content/Custom/bootstrap.min.css"
-					//	 "~/Content/site.css"
+                     //"~/Content/Custom/bootstrap.min.css"
+                     //	 "~/Content/site.css"
                      ));
 
             #endregion
