@@ -62,11 +62,6 @@ namespace Cel.Modelo.Repositorio
 
         #region Listagens
 
-        public List<Usuario> BuscarPorNome(string nome)
-        {
-            throw new NotImplementedException();
-        }
-
         public List<Usuario> BuscaPorFiltro(FiltroUsuarios filtro)
         {
             if (!string.IsNullOrEmpty(filtro.Nome) || !string.IsNullOrEmpty(filtro.UserName))
@@ -78,13 +73,13 @@ namespace Cel.Modelo.Repositorio
         private Func<Usuario, bool> RetornaFuncUsuario(FiltroUsuarios filtro)
         {
             if (!string.IsNullOrEmpty(filtro.Nome) && !string.IsNullOrEmpty(filtro.Nome))
-                return (usu => usu.Nome.Contains(filtro.Nome) && usu.UserName.Contains(filtro.UserName));
+                return (usu => usu.Nome.Contains(filtro.Nome) && usu.UserName.Contains(filtro.UserName.ToLower()));
 
             if (!string.IsNullOrEmpty(filtro.Nome))
                 return usu => usu.Nome.Contains(filtro.Nome);
 
             if (!string.IsNullOrEmpty(filtro.UserName))
-                return usu => usu.UserName.Contains(filtro.UserName);
+                return usu => usu.UserName.Contains(filtro.UserName.ToLower());
 
             return null;
         }

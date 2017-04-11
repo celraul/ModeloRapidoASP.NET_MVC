@@ -53,9 +53,11 @@ namespace Cel.Modelo.web.ViewModels
         [Required(ErrorMessage = "Preencha o campo empresa")]
         [DisplayName("Empresa")]
         public int IdEmpresa { get; set; }
-       // public IEnumerable<System.Web.Mvc.SelectListItem> Empresas { get; set; }
+        // public IEnumerable<System.Web.Mvc.SelectListItem> Empresas { get; set; }
 
         //  public virtual EmpresaViewModel Empresa { get; set; }
         //public virtual Empresa empresa { get; set; }
+
+        public bool Error { get; set; }
     }
 }

@@ -52,8 +52,9 @@ namespace Cel.Modelo.web
                        "~/Scripts/Custom/flot/jquery.flot.tooltip.min.js",
                        "~/Scripts/Custom/morris/morris-data.js",
                         "~/Scripts/Custom/morris/morris.js",
-                        "~/Scripts/Custom/morris/raphael.min.js"
-                       ));
+                        "~/Scripts/Custom/morris/raphael.min.js",
+                        "~/Scripts/Telas/use.js"
+                        ));
 
             #endregion
 

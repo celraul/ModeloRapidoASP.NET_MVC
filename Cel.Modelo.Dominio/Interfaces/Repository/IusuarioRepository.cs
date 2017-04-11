@@ -10,7 +10,6 @@ namespace Cel.Modelo.Dominio.Interfaces.Repository
 {
     public interface IusuarioRepository :IRepositoryBase<Usuario>
     {
-        List<Usuario> BuscarPorNome(string nome);
         List<Usuario> BuscaPorFiltro(FiltroUsuarios filtro);
         void SalvarUsuario(Usuario usuario);
         void RemoverUsuario(Usuario usuario);

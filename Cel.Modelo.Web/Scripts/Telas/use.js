@@ -1,0 +1,9 @@
+﻿var Use = {
+
+    populaUsuarioPadrão: function ()
+    {
+
+
+    }
+
+};

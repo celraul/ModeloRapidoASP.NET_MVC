@@ -49,9 +49,6 @@ namespace Cel.Modelo.web.webControllers
         // GET: CadastroUsuario/Create or Edit
         public ActionResult Create(int? id)
         {
-            List<EmpresaViewModel> Empresas = new List<EmpresaViewModel>();
-
-
             ViewBag.SelectEmpresas = ListagemEmpresas();
 
             if (id.HasValue)
@@ -63,17 +60,11 @@ namespace Cel.Modelo.web.webControllers
                     return View(usuarioViewModel);
                 }
                 else
-                {
-                    throw new HttpException((int)HttpStatusCode.InternalServerError, " erro id usuário incorreto ");
-
-                    //throw new Exception("erro");
-                }
-                //throw new Exception("erro");
-                //throw new HttpException((int)HttpStatusCode.InternalServerError," erro id usuário incorreto ");
+                    throw new HttpException((int)HttpStatusCode.InternalServerError, "usuário não localizado");
 
             }
-            //else
-            //    return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+
+            ShowToast();
 
             return View();
         }
@@ -90,8 +81,7 @@ namespace Cel.Modelo.web.webControllers
                     var usuario = Mapper.Map<UsuarioViewModel, Usuario>(userViewModel);
                     _usuarioRepository.SalvarUsuario(usuario);
 
-                    SetToast(new Toast(Dominio.Enum.TipoToast.Success, "Usuario Salvo com Sucesso."));
-                    ShowToast();
+                    SetToast(new Toast(Dominio.Enum.TipoToast.Success, "Usuario criado com Sucesso."));
 
                     return RedirectToAction("ListaUsuarios");
 
@@ -101,9 +91,12 @@ namespace Cel.Modelo.web.webControllers
                     ViewBag.SelectEmpresas = ListagemEmpresas();
                     ModelState.AddModelError(string.Empty, "Erro ao salvar Usuario.");
 
+                    ShowToast();
+
                     return View(userViewModel);
                 }
 
+             
             }
             catch (Exception ex)
             {
@@ -150,6 +143,19 @@ namespace Cel.Modelo.web.webControllers
         public ActionResult Modal()
         {
             return View();
+        }
+
+        public ActionResult AjaxPesquisarUsuario(string nome, string userName)
+        {
+            var usuarios = _usuarioRepository.BuscaPorFiltro(new FiltroUsuarios() { Nome = nome, UserName = userName }).ToList();
+            if (usuarios != null && usuarios.Count() > 0)
+            {
+                var usuarioView = Mapper.Map<List<Usuario>, List<UsuarioViewModel>>(usuarios);
+                return Json(usuarioView, JsonRequestBehavior.AllowGet);
+            }
+            else
+                return Json(new { Error = true, TextError = "Não encontrado usuarios" }, JsonRequestBehavior.AllowGet);
+
         }
 
     }
