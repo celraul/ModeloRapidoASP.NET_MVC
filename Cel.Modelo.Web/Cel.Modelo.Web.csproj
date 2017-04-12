@@ -226,6 +226,7 @@
     <Content Include="Content\Custom\sb-admin.css" />
     <Content Include="Content\font-awesome.css" />
     <Content Include="Content\font-awesome.min.css" />
+    <Content Include="Content\jquery-confirm.css" />
     <Content Include="Content\justified-nav.css" />
     <Content Include="Content\Login.css" />
     <Content Include="Content\Toast.css" />
@@ -250,12 +251,14 @@
     <Content Include="Scripts\Custom\flot\jquery.flot.js" />
     <Content Include="Scripts\Custom\flot\jquery.flot.pie.js" />
     <Content Include="Scripts\Custom\flot\jquery.flot.resize.js" />
+    <Content Include="Scripts\Custom\flot\jquery.flot.time.js" />
     <Content Include="Scripts\Custom\flot\jquery.flot.tooltip.min.js" />
     <Content Include="Scripts\Custom\jquery.js" />
     <Content Include="Scripts\Custom\morris\morris-data.js" />
     <Content Include="Scripts\Custom\morris\morris.js" />
     <Content Include="Scripts\Custom\morris\morris.min.js" />
     <Content Include="Scripts\Custom\morris\raphael.min.js" />
+    <Content Include="Scripts\dataTables.bootstrap.min.js" />
     <Content Include="Scripts\jquery-3.1.1.js" />
     <Content Include="Scripts\jquery-3.1.1.min.js" />
     <Content Include="Scripts\jquery-3.1.1.slim.js" />
@@ -263,8 +266,10 @@
     <Content Include="Scripts\jquery-3.1.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.1.1.min.map" />
     <None Include="Scripts\jquery.validate-vsdoc.js" />
+    <Content Include="Scripts\jquery-3.2.1.js" />
     <Content Include="Scripts\jquery.backstretch.js" />
     <Content Include="Scripts\jquery.backstretch.min.js" />
+    <Content Include="Scripts\jquery.confirm.3.2.1.js" />
     <Content Include="Scripts\jquery.confirm.js" />
     <Content Include="Scripts\jquery.validate.js" />
     <Content Include="Scripts\jquery.validate.min.js" />
@@ -272,6 +277,7 @@
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="Scripts\placeholder.js" />
+    <Content Include="Scripts\jquery.dataTables.min.js" />
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
     <Content Include="Scripts\Telas\use.js" />

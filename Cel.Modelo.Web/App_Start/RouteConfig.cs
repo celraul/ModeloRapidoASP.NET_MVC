@@ -14,10 +14,19 @@ namespace Cel.Modelo.web
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
             routes.MapRoute(
+               name: "Pesquisa",
+               url: "Pesquisas/PesquisaPorFiltro/{filtro}",
+               defaults: new { controller = "Pesquisa", action = "PesquisaPorFiltro", id = UrlParameter.Optional }
+           );
+
+            routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",
                 defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
             );
+
+
+
         }
     }
 }

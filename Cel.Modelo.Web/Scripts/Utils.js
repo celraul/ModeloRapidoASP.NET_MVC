@@ -51,8 +51,6 @@ jQuery(document).ready(function () {
 
     if (jQuery("form").length > 0) {
 
-        var confirmsAlert = jQuery(".confirm-alert");
-
         jQuery(".confirm-alert").each(function (event) {
             $(this).confirm({
                 title: "Confirmação",
@@ -66,9 +64,8 @@ jQuery(document).ready(function () {
 
                 cancel: function (button) {
                 },
-                cancelButton: "Não",
-                confirmButton: "Sim"
-               
+                confirmButton: "Sim",
+                cancelButton: "Não"
             });
         });
     }
@@ -141,5 +138,18 @@ jQuery(document).ready(function () {
 
 
 });
+
+
+function linkTrTable() {
+
+    $(".link-tr").attr('style', 'cursor:pointer');
+    $(".table").addClass('table-hover');
+
+    $(".link-tr").click(function () {
+        window.document.location = $(this).data("href");
+
+    });
+}
+
 
 

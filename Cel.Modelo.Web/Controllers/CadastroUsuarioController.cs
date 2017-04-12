@@ -37,6 +37,7 @@ namespace Cel.Modelo.web.webControllers
             var usuarios = _usuarioRepository.BuscaPorFiltro(filtro);
             ViewBag.Filtro = filtro;
 
+            ShowToast();
             return View(Mapper.Map<IEnumerable<Usuario>, IEnumerable<UsuarioViewModel>>(usuarios));
         }
 
