@@ -32,7 +32,7 @@ namespace Cel.Modelo.web
             #region JS
 
             bundles.Add(new ScriptBundle("~/bundles/jqueryBootstrap").Include(
-                        "~/Scripts/Custom/bootstrap.js",
+                       "~/Scripts/Custom/bootstrap.js",
                         "~/Scripts/Custom/jquery.js",
                         "~/Scripts/bootstrap.js",
                         // "~/Scripts/jquery-{version}.js",

@@ -180,7 +180,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ActionsFilters\TesteActionFilter.cs" />
+    <Compile Include="Filtros\TesteActionFilter.cs" />
     <Compile Include="Annotations\EmailPersonalizadoModelProfile.cs" />
     <Compile Include="Annotations\StringEspaçosEmBrancoModelProfile.cs" />
     <Compile Include="App_Start\BundleConfig.cs" />
@@ -197,6 +197,8 @@
     <Compile Include="Controllers\ErrorController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ServicesController.cs" />
+    <Compile Include="Filtros\LogActionFilter.cs" />
+    <Compile Include="Filtros\LogResultFilter.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>

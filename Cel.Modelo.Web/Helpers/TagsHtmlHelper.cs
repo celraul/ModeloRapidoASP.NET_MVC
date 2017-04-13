@@ -14,14 +14,16 @@ namespace Cel.Modelo.web.Helpers
             //var botao = "<input onclick='location.href = '{1}';' class='btn trans action {0} ' value='{3}' data-target='#{2}'  type='Button'></input>";
             var id = "Modal" + Guid.NewGuid();
 
-            var str = new StringBuilder().AppendFormat("<a data-toggle='modal'   role='button' class='{0}' href='{1}' data-target='#{2}'>{3}</a>", classe, url, id, nome)
-                                         .AppendLine("<script>jQuery(document).ready(function () {")
-                                         .AppendLine("var $div = jQuery('#PanelModal');")
-                                         .AppendFormat("var divClone = $div.clone().prop('id', '{0}' );", id)
-                                         .AppendLine("$div.after(divClone);")
-                                         .AppendFormat("jQuery('#{0} .modal-dialog').width('{1}');", id, width + "%")
-                                         .AppendFormat("jQuery('#{0} .modal-dialog').height('{1}');", id, height + "%")
-                                         .AppendLine("})</script>").ToString();
+            var str = new StringBuilder().AppendFormat(" <a data-toggle='modal' role='button' class='{0}' href='{1}' data-target='#{2}'>{3} </a> ", classe, url, id, nome)
+                                         .AppendLine("   <script> $(document).ready(function () { ")
+                                         .AppendLine("      var $div = $('#PanelModal'); ")
+                                         .AppendLine("      var divClone = $div.clone(); ")
+                                         .AppendFormat("    divClone.prop('id', '{0}' ); ",id)
+                                         .AppendLine("      $div.after(divClone);")
+                                         .AppendFormat("    $('#{0} .modal-dialog').width('{1}'); ", id, width + "%")
+                                         .AppendFormat("    $('#{0} .modal-dialog').height('{1}'); ", id, height + "%")
+                                         .AppendLine("   }); ")
+                                         .AppendLine("   </script> ").ToString();
 
             return new MvcHtmlString(str);
         }

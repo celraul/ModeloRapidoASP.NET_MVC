@@ -10,11 +10,6 @@
 
     </head>
     <body>
-        @Scripts.Render("~/bundles/jqueryBootstrap")
-        @Scripts.Render("~/bundles/jqueryval")
-        @Scripts.Render("~/Custom/js")
-        @Scripts.Render("~/bundles/ScriptLibs")
-       
 
         <div class="modal-content">
             <div class="modal-header">
@@ -22,7 +17,13 @@
                 <button type="button" class="close" data-dismiss="modal">&times;</button>
             </div>
             <div class="modal-body">
+
+
                 @RenderBody()
+                @*@Scripts.Render("~/bundles/jqueryBootstrap")*@
+                @Scripts.Render("~/bundles/jqueryval")
+                @Scripts.Render("~/Custom/js")
+                @Scripts.Render("~/bundles/ScriptLibs")
             </div>
         </div>
 
