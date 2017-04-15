@@ -23,6 +23,7 @@ namespace CrossCuttingSimpleInjetiction
 
             container.Register<IusuarioRepository, UsuarioRepository>(Lifestyle.Singleton);
             container.Register<IempresaRepository, EmpresaRepository>(Lifestyle.Singleton);
+            container.Register<IfeedRepository, FeedRepository>(Lifestyle.Singleton);
 
             #endregion
 

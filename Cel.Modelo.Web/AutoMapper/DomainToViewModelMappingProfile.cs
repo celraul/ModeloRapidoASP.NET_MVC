@@ -16,6 +16,8 @@ namespace ManagerMVC.AutoMapper
             Mapper.CreateMap<Usuario, UsuarioViewModel>();
             Mapper.CreateMap<Album, AlbumViewModel>();
             Mapper.CreateMap<Empresa, EmpresaViewModel>();
+            Mapper.CreateMap<Feed, FeedViewModel>();
+
         }
 
     }

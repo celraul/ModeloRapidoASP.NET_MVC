@@ -38,6 +38,7 @@ namespace Cel.Modelo.web.webControllers
             ViewBag.Filtro = filtro;
 
             ShowToast();
+
             return View(Mapper.Map<IEnumerable<Usuario>, IEnumerable<UsuarioViewModel>>(usuarios));
         }
 
@@ -97,7 +98,7 @@ namespace Cel.Modelo.web.webControllers
                     return View(userViewModel);
                 }
 
-             
+
             }
             catch (Exception ex)
             {

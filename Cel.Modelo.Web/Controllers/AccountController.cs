@@ -21,56 +21,55 @@ using Cel.Modelo.Dominio.Interfaces.Repository;
 
 namespace Cel.Modelo.web.Controllers
 {
-	[Authorize]
-	public class AccountController : Controller
-	{
-		public UserManager<ApplicationUser> UserManager { get; private set; }
-		private readonly IusuarioRepository _usuarioRepository;
+    [Authorize]
+    public class AccountController : Controller
+    {
+        public UserManager<ApplicationUser> UserManager { get; private set; }
+        private readonly IusuarioRepository _usuarioRepository;
 
-		public AccountController(IusuarioRepository usuarioRepository)
-		{
-			_usuarioRepository = usuarioRepository;
-		}
+        public AccountController(IusuarioRepository usuarioRepository)
+        {
+            _usuarioRepository = usuarioRepository;
+        }
 
-		[AllowAnonymous]
-		public ActionResult Login()
-		{
-			return View();
-		}
+        [AllowAnonymous]
+        public ActionResult Login()
+        {
+            return View();
+        }
 
-		[HttpPost]
-		[AllowAnonymous]
-		[ValidateAntiForgeryToken]
-		public async Task<ActionResult> Login(string ReturnUrl, [Bind(Exclude = "Ativo")]LoginViewModel loginViewModel)
-		{
+        [HttpPost]
+        [AllowAnonymous]
+        [ValidateAntiForgeryToken]
+        public async Task<ActionResult> Login(string ReturnUrl, [Bind(Exclude = "Ativo")]LoginViewModel loginViewModel)
+        {
 
-			if (ModelState.IsValid)
-			{
-				var usuarios = Mapper.Map<IEnumerable<Usuario>, IEnumerable<UsuarioViewModel>>( _usuarioRepository.GetALL());
+            if (ModelState.IsValid)
+            {
+                var usuarios = Mapper.Map<IEnumerable<Usuario>, IEnumerable<UsuarioViewModel>>(_usuarioRepository.GetALL());
 
+                loginViewModel.Ativo = true;
+                FormsAuthentication.SetAuthCookie(loginViewModel.UserName, false);
+                return RedirectToAction("Index", "Home");
+            }
+            else
+            {
+                ModelState.AddModelError(string.Empty, "Invalid username or password.");
+                return View(loginViewModel);
+            }
 
-				loginViewModel.Ativo = true;
-				FormsAuthentication.SetAuthCookie(loginViewModel.UserName, false);
-				return RedirectToAction("Index", "Home");
-			}
-			else
-			{
-				ModelState.AddModelError(string.Empty, "Invalid username or password.");
-				return View(loginViewModel);
-			}
+        }
 
-		}
+        //
+        // POST: /Account/LogOff
+        //[HttpPost]
+        //[ValidateAntiForgeryToken]
+        public ActionResult LogOff()
+        {
+            FormsAuthentication.SignOut();
+            // AuthenticationManager.SignOut();
+            return RedirectToAction("Login", "Account");
+        }
 
-		//
-		// POST: /Account/LogOff
-		//[HttpPost]
-		//[ValidateAntiForgeryToken]
-		public ActionResult LogOff()
-		{
-			FormsAuthentication.SignOut();
-			// AuthenticationManager.SignOut();
-			return RedirectToAction("Login", "Account");
-		}
-
-	}
+    }
 }

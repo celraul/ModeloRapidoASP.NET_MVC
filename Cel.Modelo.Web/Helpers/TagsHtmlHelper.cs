@@ -18,7 +18,7 @@ namespace Cel.Modelo.web.Helpers
                                          .AppendLine("   <script> $(document).ready(function () { ")
                                          .AppendLine("      var $div = $('#PanelModal'); ")
                                          .AppendLine("      var divClone = $div.clone(); ")
-                                         .AppendFormat("    divClone.prop('id', '{0}' ); ",id)
+                                         .AppendFormat("    divClone.prop('id', '{0}' ); ", id)
                                          .AppendLine("      $div.after(divClone);")
                                          .AppendFormat("    $('#{0} .modal-dialog').width('{1}'); ", id, width + "%")
                                          .AppendFormat("    $('#{0} .modal-dialog').height('{1}'); ", id, height + "%")
@@ -32,8 +32,8 @@ namespace Cel.Modelo.web.Helpers
         {
             var tagBuilder = new TagBuilder("input");
             tagBuilder.Attributes.Add("type", "submit");
-            tagBuilder.Attributes.Add("value", "Salvar");
-            tagBuilder.Attributes.Add("class", "btn btn-primary confirm-alert");
+            tagBuilder.Attributes.Add("value", value);
+            tagBuilder.Attributes.Add("class", "btn btn-primary confirm-alert ");  
 
             return new MvcHtmlString(tagBuilder.ToString());
         }

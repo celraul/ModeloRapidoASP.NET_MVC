@@ -44,35 +44,35 @@ namespace Cel.Modelo.web
 
         protected void Application_Error(object sender, EventArgs e)
         {
-            Exception exception = Server.GetLastError();
-            Response.Clear();
+            //Exception exception = Server.GetLastError();
+            //Response.Clear();
 
-            HttpException httpException = exception as HttpException;
+            //HttpException httpException = exception as HttpException;
 
-            if (httpException != null)
-            {
-                string action;
+            //if (httpException != null)
+            //{
+            //    string action;
 
-                switch (httpException.GetHttpCode())
-                {
-                    case 404:
-                        // page not found
-                        action = "NotFound";
-                        break;
-                    case 500:
-                        // server error
-                        action = "Error";
-                        break;
-                    default:
-                        action = "Default";
-                        break;
-                }
-                Server.ClearError();
+            //    switch (httpException.GetHttpCode())
+            //    {
+            //        case 404:
+            //            // page not found
+            //            action = "NotFound";
+            //            break;
+            //        case 500:
+            //            // server error
+            //            action = "Error";
+            //            break;
+            //        default:
+            //            action = "Default";
+            //            break;
+            //    }
+            //    Server.ClearError();
 
-                Response.Redirect(String.Format("~/Error/{0}/?message={1}", action, exception.Message));
-            }
-            else
-                Response.Redirect(String.Format("~/Error/Default/?message={0}", "Erro interno."));
+            //    Response.Redirect(String.Format("~/Error/{0}/?message={1}", action, exception.Message));
+            //}
+            //else
+            //    Response.Redirect(String.Format("~/Error/Default/?message={0}", "Erro interno."));
 
         }
 

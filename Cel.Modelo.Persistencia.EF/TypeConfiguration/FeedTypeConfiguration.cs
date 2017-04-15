@@ -20,12 +20,12 @@ namespace Cel.Modelo.Persistencia.EF.TypeConfiguration
 
         protected override void ConfigurarChavePrimaria()
         {
-            HasKey(pk => pk.Id);
+            HasKey(pk => pk.IdFeed);
         }
 
         protected override void ConfigurarCamposTabela()
         {
-            Property(p => p.Id).IsRequired()
+            Property(p => p.IdFeed).IsRequired()
                                .HasDatabaseGeneratedOption(System.ComponentModel.DataAnnotations.Schema.DatabaseGeneratedOption.Identity)
                                .HasColumnName("id");
 
@@ -38,6 +38,8 @@ namespace Cel.Modelo.Persistencia.EF.TypeConfiguration
             Property(p => p.Visualizado).HasColumnName("visualizado");
 
             Property(p => p.UsuarioCriacaoId).HasColumnName("cod_usuario");
+
+            Property(p => p.DataCriacao).HasColumnName("data_criacao");
 
         }
 

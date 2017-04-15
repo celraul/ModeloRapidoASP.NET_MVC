@@ -5,10 +5,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Data.Entity;
 using Cel.Modelo.Persistencia.EF.Context;
+using System;
 
 namespace Cel.Modelo.Repositorio
 {
-    public class FeedRepository: RepositoryBase<Feed>, IfeedRepository
+    public class FeedRepository : RepositoryBase<Feed>, IfeedRepository
     {
         public FeedRepository()
         {
@@ -18,13 +19,26 @@ namespace Cel.Modelo.Repositorio
         public override Feed GetById(int id)
         {
             return _modeloDbContext.Set<Feed>().Include(p => p.UsuarioCriacao)
-                                               .SingleOrDefault(f => f.Id == id);
+                                               .SingleOrDefault(f => f.IdFeed == id);
         }
 
         public override IEnumerable<Feed> GetALL()
         {
             return _modeloDbContext.Set<Feed>().Include(p => p.UsuarioCriacao).ToList();
         }
-    
+
+        public void SalvaFeed(string texto)
+        {
+            var feed = new Feed()
+            {
+                Texto = texto,
+                UsuarioCriacaoId = 1017,
+                DataCriacao = DateTime.Now
+                // carregar usuario conectado
+            };
+
+            base.Add(feed);
+        }
+
     }
 }

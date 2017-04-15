@@ -1,0 +1,62 @@
+﻿@using Cel.Modelo.web.Helpers;
+@model Cel.Modelo.web.ViewModels.FeedListViewModel
+
+
+@{
+    ViewBag.Title = "Lista";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Feeds</h2>
+
+<div class="row">
+    <div class="col-lg-12 col-lg-offset-12 col-md-12 col-md-offset-12 col-sm-12 col-sm-offset-12">
+        <!-- TWEET WRAPPER START -->
+        <div class="twt-wrapper">
+            <div class="panel panel-info">
+                <div class="panel-heading">
+                    Feed
+                </div>
+                <div class="panel-body">
+                    @using (Html.BeginForm("SalvaFeed", "Feed", new { ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post, new { @class = "form-horizontal login-form validate", role = "form" }))
+                    {
+                        @Html.TextAreaFor(m => m.TextoFeedNovo, new { @class = "form-control" })
+
+                        <br />
+                        <div class="text-right">
+                            @TagsHtmlHelper.ButtonSubmitConfirm("Enviar")
+                        </div>
+                    }
+
+                    <hr />
+                    <ul class="media-list">
+
+                        @foreach (var item in Model.Feeds)
+                        {
+                            <li class="media">
+                                <a href="#" class="pull-left">
+                                    <img src="assets/img/1.png" alt="" class="img-circle">
+                                </a>
+                                <div class="media-body">
+                                    <span class="text-muted pull-right">
+                                        <small class="text-muted"> @item.DataCriacao </small>
+                                    </span>
+                                    <strong class="text-success"> @item.UsuarioCriacao.Nome</strong>
+                                    <p>
+                                        @item.Texto
+                                    </p>
+                                </div>
+                            </li>
+
+                        }
+
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- TWEET WRAPPER END -->
+    </div>
+</div>
+
+
