@@ -2,20 +2,23 @@
 using Cel.Modelo.Dominio.Entidades;
 using Cel.Modelo.Dominio.Filtros;
 using Cel.Modelo.Dominio.Interfaces.Repository;
+using Cel.Modelo.Persistencia.EF.Context;
 using Cel.Modelo.web.Controllers;
+using Cel.Modelo.web.Identity;
 using Cel.Modelo.web.ViewModels;
+using Microsoft.AspNet.Identity;
+using Microsoft.AspNet.Identity.EntityFramework;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net;
-using System.Net.Http;
 using System.Web;
 using System.Web.Mvc;
 
 
 namespace Cel.Modelo.web.webControllers
 {
-    [Authorize]
+    [Authorize(Roles= "Administrador")]
     public class CadastroUsuarioController : ControllerBasico
     {
         private readonly IusuarioRepository _usuarioRepository;
@@ -36,6 +39,11 @@ namespace Cel.Modelo.web.webControllers
 
             var usuarios = _usuarioRepository.BuscaPorFiltro(filtro);
             ViewBag.Filtro = filtro;
+
+            var userStore = new UserStore<IdentityUser>(new ModeloIdentityDbContext());
+            var userManager = new UserManager<IdentityUser>(userStore);
+
+            var x = new ModeloIdentityDbContext().Users.ToList();
 
             ShowToast();
 
@@ -73,6 +81,7 @@ namespace Cel.Modelo.web.webControllers
 
         // POST: CadastroUsuario/Create
         [HttpPost]
+        [ValidateAntiForgeryToken]
         public ActionResult Create(UsuarioViewModel userViewModel)
         {
 
@@ -80,12 +89,30 @@ namespace Cel.Modelo.web.webControllers
             {
                 if (ModelState.IsValid)
                 {
-                    var usuario = Mapper.Map<UsuarioViewModel, Usuario>(userViewModel);
-                    _usuarioRepository.SalvarUsuario(usuario);
+                    var userStore = new UserStore<IdentityUser>(new ModeloIdentityDbContext());
+                    var userManager = new UserManager<IdentityUser>(userStore);
+                    var identityUser = new IdentityUser()
+                    {
+                        UserName = userViewModel.UserName
+                    };
+              
+                    // cria criptografia da senha 
+                    IdentityResult resultado = userManager.Create(identityUser, userViewModel.Password);
+                    if (resultado.Succeeded)
+                    {
+                        SetToast(new Toast(Dominio.Enum.TipoToast.Success, "Usuario criado com Sucesso."));
+                        return RedirectToAction("ListaUsuarios");
+                    }
+                    else
+                    {
+                        ViewBag.SelectEmpresas = ListagemEmpresas();
+                        ModelState.AddModelError("erro_identity", resultado.Errors.First());
+                        return View(userViewModel);
+                    }
 
-                    SetToast(new Toast(Dominio.Enum.TipoToast.Success, "Usuario criado com Sucesso."));
-
-                    return RedirectToAction("ListaUsuarios");
+                    //var usuario = Mapper.Map<UsuarioViewModel, Usuario>(userViewModel);
+                    //_usuarioRepository.SalvarUsuario(usuario);
+                    //return RedirectToAction("ListaUsuarios");
 
                 }
                 else
@@ -94,7 +121,6 @@ namespace Cel.Modelo.web.webControllers
                     ModelState.AddModelError(string.Empty, "Erro ao salvar Usuario.");
 
                     ShowToast();
-
                     return View(userViewModel);
                 }
 

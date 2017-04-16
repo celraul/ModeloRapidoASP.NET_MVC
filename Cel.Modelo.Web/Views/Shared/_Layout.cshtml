@@ -120,8 +120,17 @@
 					</ul>
 				</li>
 				<li class="dropdown">
-					<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> Raul R. Silva <b class="caret"></b></a>
-					<ul class="dropdown-menu">
+					
+                    @if (Request.IsAuthenticated)
+                    {
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"> </i> @User.Identity.Name  <b class="caret"></b></a>
+                    }
+                    else
+                    {
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"> </i> Erro! <b class="caret"></b></a>
+                    }
+					
+                    <ul class="dropdown-menu">
 						<li>
 							<a href="#"><i class="fa fa-fw fa-user"></i> Profile</a>
 						</li>

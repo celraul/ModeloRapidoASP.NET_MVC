@@ -48,7 +48,6 @@ namespace Cel.Modelo.web.Controllers
             else
                 SetToast(new Toast(TipoToast.Info, "insira um texto"));
 
-
             return RedirectToAction("Lista");
         }
 

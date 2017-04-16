@@ -8,16 +8,14 @@ using System.Web.Mvc;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.EntityFramework;
 using Microsoft.Owin.Security;
-using System.Linq;
 using System.Text;
-using System.Collections.Generic;
 using AutoMapper;
 using System.Web.Security;
 using Cel.Modelo.web.Models;
 using Cel.Modelo.web.ViewModels;
 using Cel.Modelo.Dominio.Entidades;
 using Cel.Modelo.Dominio.Interfaces.Repository;
-
+using Cel.Modelo.web.Identity;
 
 namespace Cel.Modelo.web.Controllers
 {
@@ -46,11 +44,35 @@ namespace Cel.Modelo.web.Controllers
 
             if (ModelState.IsValid)
             {
-                var usuarios = Mapper.Map<IEnumerable<Usuario>, IEnumerable<UsuarioViewModel>>(_usuarioRepository.GetALL());
+                var userStore = new UserStore<IdentityUser>(new ModeloIdentityDbContext());
+                var userManager = new UserManager<IdentityUser>(userStore);
 
-                loginViewModel.Ativo = true;
-                FormsAuthentication.SetAuthCookie(loginViewModel.UserName, false);
-                return RedirectToAction("Index", "Home");
+                var usuario = userManager.Find(loginViewModel.UserName, loginViewModel.Password);
+
+                
+                if (usuario != null)
+                {
+                    var authManager = HttpContext.GetOwinContext().Authentication;
+                    var identity = userManager.CreateIdentity(usuario, DefaultAuthenticationTypes.ApplicationCookie);
+                    authManager.SignIn(new AuthenticationProperties()
+                    {
+                        IsPersistent = false,
+                    }, identity);
+
+                    return RedirectToAction("Index", "Home");
+                }
+                else
+                {
+                    ModelState.AddModelError("erro_identity", "Usuário ou senha invalidos");
+                    return View(loginViewModel);
+                }
+
+
+                //var usuarios = Mapper.Map<IEnumerable<Usuario>, IEnumerable<UsuarioViewModel>>(_usuarioRepository.GetALL());
+
+                //loginViewModel.Ativo = true;
+                //FormsAuthentication.SetAuthCookie(loginViewModel.UserName, false);
+                //return RedirectToAction("Index", "Home");
             }
             else
             {
@@ -60,14 +82,12 @@ namespace Cel.Modelo.web.Controllers
 
         }
 
-        //
-        // POST: /Account/LogOff
-        //[HttpPost]
-        //[ValidateAntiForgeryToken]
         public ActionResult LogOff()
         {
-            FormsAuthentication.SignOut();
-            // AuthenticationManager.SignOut();
+            var authManager = HttpContext.GetOwinContext().Authentication;
+            authManager.SignOut();
+            //FormsAuthentication.SignOut();
+
             return RedirectToAction("Login", "Account");
         }
 

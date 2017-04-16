@@ -1,5 +1,0 @@
-R:\Desenvolvedor\projetos\ModeloRapidoASP.NET_MVC\Cel.Modelo.Regras\bin\Debug\Cel.Modelo.Regras.dll
-R:\Desenvolvedor\projetos\ModeloRapidoASP.NET_MVC\Cel.Modelo.Regras\bin\Debug\Cel.Modelo.Regras.pdb
-R:\Desenvolvedor\projetos\ModeloRapidoASP.NET_MVC\Cel.Modelo.Regras\obj\Debug\Cel.Modelo.Regras.csprojResolveAssemblyReference.cache
-R:\Desenvolvedor\projetos\ModeloRapidoASP.NET_MVC\Cel.Modelo.Regras\obj\Debug\Cel.Modelo.Regras.dll
-R:\Desenvolvedor\projetos\ModeloRapidoASP.NET_MVC\Cel.Modelo.Regras\obj\Debug\Cel.Modelo.Regras.pdb

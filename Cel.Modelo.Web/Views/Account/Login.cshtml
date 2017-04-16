@@ -30,6 +30,8 @@
                         {
                             @Html.AntiForgeryToken()
                             @Html.ValidationSummary(true)
+                            @Html.ValidationMessage("erro_identity")
+
                             <div class="form-group">
                                 @Html.LabelFor(m => m.UserName, new { @class = "col-md-2 control-label sr-only" })
                                     <div class="col-md-12">
