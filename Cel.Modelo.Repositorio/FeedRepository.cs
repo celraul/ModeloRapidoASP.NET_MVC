@@ -6,6 +6,7 @@ using System.Linq;
 using System.Data.Entity;
 using Cel.Modelo.Persistencia.EF.Context;
 using System;
+using System.Threading.Tasks;
 
 namespace Cel.Modelo.Repositorio
 {
@@ -40,5 +41,9 @@ namespace Cel.Modelo.Repositorio
             base.Add(feed);
         }
 
+        public async Task<IEnumerable<Feed>> ListAllAsync()
+        {
+            return base.GetALL().ToList();
+        }
     }
 }

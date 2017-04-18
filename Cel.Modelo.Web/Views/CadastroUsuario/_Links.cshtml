@@ -1,0 +1,22 @@
+﻿@model  Cel.Modelo.web.ViewModels.UsuarioViewModel
+
+<a href="@Url.Action("Create", new { id = Model.IdUsuario })" class="btn btn-info">
+    <span class="glyphicon glyphicon-edit" aria-hidden="true"></span> Editar
+</a>
+
+@if (User.IsInRole("Administrador"))
+{
+    <a href="@Url.Action("Delete", "CadastroUsuario", new { id = Model.IdUsuario })" class="btn btn-danger">
+        <span class="glyphicon glyphicon-trash" aria-hidden="true"></span> Excluir
+    </a>
+}
+
+
+
+
+
+@*@using (Html.BeginForm("Delete", "CadastroUsuario", FormMethod.Post))
+    {
+        @Html.Hidden("Id", item.IdUsuario)
+        <input type="submit" value="Excluir" class="btn btn-danger" />
+}*@

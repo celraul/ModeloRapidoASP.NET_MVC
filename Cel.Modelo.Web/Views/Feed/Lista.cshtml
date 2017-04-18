@@ -41,7 +41,15 @@
                                     <span class="text-muted pull-right">
                                         <small class="text-muted"> @item.DataCriacao </small>
                                     </span>
-                                    <strong class="text-success"> @item.UsuarioCriacao.Nome</strong>
+                                    @if (@item.UsuarioCriacao != null)
+                                    {
+                                        <strong class="text-success"> @item.UsuarioCriacao.Nome </strong>
+                                    }
+                                    else
+                                    {
+                                        <strong class="text-success"> Eu fazendo cagada no banco </strong>
+                                    }
+                                    
                                     <p>
                                         @item.Texto
                                     </p>

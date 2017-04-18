@@ -6,7 +6,6 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-
 <div class="conteudoBody container">
 
     <div class="row">
@@ -123,22 +122,7 @@
                                             }
                                         </td>
                                         <td class="text-center">
-                                            @*@Html.ActionLink("Edit", "Edit", new { id = item.Id }) *@
-
-                                            <a href="@Url.Action("Create", new { id = item.IdUsuario })" class="btn btn-info">
-                                                <span class="glyphicon glyphicon-edit" aria-hidden="true"></span> Editar
-                                            </a>
-                                            <a href="@Url.Action("Delete", new { id = item.IdUsuario })" class="btn btn-danger">
-                                                <span class="glyphicon glyphicon-trash" aria-hidden="true"></span> Excluir
-                                            </a>
-
-                                            @*@using (Html.BeginForm("Delete", "CadastroUsuario", FormMethod.Post))
-                                                {
-                                                    @Html.Hidden("Id", item.IdUsuario)
-                                                    <input type="submit" value="Excluir" class="btn btn-danger" />
-                                                }*@
-
-
+                                            @Html.Partial("_Links", item)
                                         </td>
                                     </tr>
                                 }

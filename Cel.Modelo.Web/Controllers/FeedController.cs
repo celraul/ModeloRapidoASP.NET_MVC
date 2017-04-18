@@ -6,6 +6,7 @@ using Cel.Modelo.web.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading.Tasks;
 using System.Web;
 using System.Web.Mvc;
 
@@ -16,12 +17,10 @@ namespace Cel.Modelo.web.Controllers
 
         private readonly IfeedRepository _feedRepository;
 
-
         public FeedController(IfeedRepository feedRepository)
         {
             _feedRepository = feedRepository;
         }
-
 
         // GET: Feed
         public ActionResult Lista()
@@ -29,7 +28,7 @@ namespace Cel.Modelo.web.Controllers
             var feeds = Mapper.Map<IEnumerable<Feed>, IEnumerable<FeedViewModel>>(_feedRepository.GetALL());
             ShowToast();
 
-            return View( new FeedListViewModel() { Feeds = feeds  } );
+            return View(new FeedListViewModel() { Feeds = feeds });
         }
 
         #region metodos
@@ -49,6 +48,14 @@ namespace Cel.Modelo.web.Controllers
                 SetToast(new Toast(TipoToast.Info, "insira um texto"));
 
             return RedirectToAction("Lista");
+        }
+
+        public async Task<ActionResult> ListAllFeedsAsync()
+        {
+            IEnumerable<Feed> feeds = await _feedRepository.ListAllAsync();
+            var feedsViewModel = Mapper.Map<IEnumerable<Feed>, IEnumerable<FeedViewModel>>(feeds);
+
+            return View(new FeedListViewModel() { Feeds = feedsViewModel });
         }
 
         #endregion
